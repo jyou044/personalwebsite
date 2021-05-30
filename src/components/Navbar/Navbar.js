@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import { MenuItems } from '../Navbar/MenuItems'
+import About from '../About/About'
+import Experience from '../Experience/Experience'
+import Contact from '../Contact/Contact'
+import Home from '../Home/Home'
 import './Navbar.css'
 class Navbar extends Component {
     state = { clicked: false }
@@ -10,25 +15,34 @@ class Navbar extends Component {
 
     render() {
         return(
-            <nav className="NavbarItems">
-                <h1 className="navbar-logo">Jason You</h1>
-                <div className="menu-icon" onClick={this.handleClick}>
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+            <Router>
+                <div>
+                    <nav className="NavbarItems">
+                        <h1 className="navbar-logo">J Y</h1>
+                        <div className="menu-icon" onClick={this.handleClick}>
+                            <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                        </div>
+                        <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                            {MenuItems.map((item, index) => {
+                                return (
+                                    <li key={index}>
+                                        <NavLink to={item.url} style={{ textDecoration: 'none' }}>
+                                            {item.title}
+                                        </NavLink>
+                                    </li>
+                                )
+                            })}
+                        </ul>
+                    </nav>
+                    <Route path="/" exact component={Home} />
+                    <Route path="/Home" exact component={Home} />
+                    <Route path="/About" component={About} />
+                    <Route path="/ContactInfo" component={Contact} />
+                    <Route path="/WorkExperience" component={Experience} />
                 </div>
-                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-                    {MenuItems.map((item, index) => {
-                        return (
-                            <li key={index}>
-                                <a className={item.cName} href={item.url}>
-                                {item.title}
-                                </a>
-                            </li>
-                        )
-                    })}
-                </ul>
-            </nav>
+            </Router>
+           
         )
     }
 }
-
 export default Navbar
