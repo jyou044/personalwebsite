@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
+import Typography from '@material-ui/core/Typography';
 import './Home.css';
 const useStyles = makeStyles((theme) => ({
     textFormat: {
@@ -19,13 +20,13 @@ const useStyles = makeStyles((theme) => ({
                     <Grid item xs={12}  container direction="row"
                     justify="center"
                     alignItems="center">
-                        <h1 className={classes.textFormat}>Jason You</h1>
+                        <Typography variant="h2" align="center" className={classes.textFormat} gutterBottom>Jason You</Typography>
                     </Grid>
 
                     <Grid item xs={12} container direction="row"
                     justify="center"
                     alignItems="center">
-                        <h2 className={classes.textFormat}>A portfolio showcasing my interests and work</h2>
+                        <Typography variant="h5" className={classes.textFormat} gutterBottom>A portfolio showcasing my interests and work</Typography>
                     </Grid>
 
                     <Grid item xs={12} container direction="row"
