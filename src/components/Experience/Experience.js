@@ -23,7 +23,14 @@ class Experience extends Component {
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                  <Typography>Eat</Typography>
+                  <Typography variant='h4'>Birth</Typography>
+                  <Typography paragraph>On December 20, 2000 I was born in Toronto, Canada</Typography>
+                  <img
+                                alt="CN Tower"
+                                height="300"
+                                src={`${process.env.PUBLIC_URL}/source/CN.jpg`} 
+                                title="Toronto, Canada" 
+                                />
                 </TimelineContent>
               </TimelineItem>
               <TimelineItem>
@@ -35,7 +42,13 @@ class Experience extends Component {
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                  <Typography>Code</Typography>
+                  <Typography variant='h4'>Seoul, Korea</Typography>
+                  <img
+                                alt="Korea"
+                                height="300"
+                                src={`${process.env.PUBLIC_URL}/source/Seoul.jpg`} 
+                                title="Seoul Korea" 
+                                />
                 </TimelineContent>
               </TimelineItem>
               <TimelineItem>
@@ -47,7 +60,7 @@ class Experience extends Component {
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                  <Typography>Sleep</Typography>
+                  <Typography variant='h4'>Toronto, Canada</Typography>
                 </TimelineContent>
               </TimelineItem>
               <TimelineItem>
@@ -59,13 +72,61 @@ class Experience extends Component {
                   <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                  <Typography>Repeat</Typography>
+                  <Typography variant='h4'>Elementary Graduation</Typography>
                 </TimelineContent>
               </TimelineItem>
+              <TimelineItem>
+                <TimelineOppositeContent>
+                  <Typography variant='h4' color="textSecondary">2014</Typography>
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>
+                  <Typography variant='h4'>Middle School Graduation</Typography>
+                </TimelineContent>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineOppositeContent>
+                  <Typography variant='h4' color="textSecondary">2018</Typography>
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>
+                  <Typography variant='h4'>High School Graduation</Typography>
+                </TimelineContent>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineOppositeContent>
+                  <Typography variant='h4' color="textSecondary">2019</Typography>
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>
+                  <Typography variant='h4'>First Work Term</Typography>
+                </TimelineContent>
+              </TimelineItem>
+              <TimelineItem>
+                <TimelineOppositeContent>
+                  <Typography variant='h4' color="textSecondary">2019-Present</Typography>
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                  <TimelineDot />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <TimelineContent>
+                  <Typography variant='h4'>Repeat</Typography>
+                </TimelineContent>
+              </TimelineItem>
+              
             </Timeline>
           </React.Fragment>
         );
     }
 }
-
 export default Experience;
