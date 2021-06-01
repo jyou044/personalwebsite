@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 export default function About() {
     const classes = useStyles();
     return (     
-        <div className="container">
+        <div>
                 <Grid item xs={12} container
                 direction="row"
                 justify="center"
@@ -54,7 +54,7 @@ export default function About() {
                                 component="img"
                                 alt="Waves"
                                 height="140"
-                                src={`${process.env.PUBLIC_URL}/waves.jpg`} 
+                                src={`${process.env.PUBLIC_URL}/background.jpg`} 
                                 title="Waves"
                                 />
                                 </Paper>

@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
         const classes = useStyles();
         return (
             
-            <div className="container">
+            <div>
                 <Grid container>
                     <Grid item xs={12}  container direction="row"
                     justify="center"
