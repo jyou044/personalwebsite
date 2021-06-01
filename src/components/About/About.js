@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 export default function About() {
     const classes = useStyles();
     return (     
-        <div className="About">
+        <div className="container">
                 <Grid item xs={12} container
                 direction="row"
                 justify="center"

@@ -15,8 +15,8 @@ const useStyles = makeStyles((theme) => ({
         const classes = useStyles();
         return (
             
-            <div>
-                <Grid container spacing ={3}>
+            <div className="container">
+                <Grid container>
                     <Grid item xs={12}  container direction="row"
                     justify="center"
                     alignItems="center">

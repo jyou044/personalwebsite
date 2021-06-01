@@ -10,18 +10,19 @@ import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import Typography from '@material-ui/core/Typography';
 import './Experience.css';
 
+
 export default function Experience() {
         return (
-            <div>
+            <div className="container">
                 <Grid item xs={12} container
                 direction="row"
                 justify="center"
                 alignItems="center" className="Experience">
- <React.Fragment>
-                    <Timeline align="alternate">
+                <React.Fragment>
+                    <Timeline align="left">
                     <TimelineItem>
                         <TimelineOppositeContent>
-                        <Typography variant='h4' color="textSecondary">2000</Typography>
+                        <Typography variant='h4'>2000</Typography>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                         <TimelineDot />

@@ -12,3 +12,6 @@
         position: absolute;
     }
   }
+  .container{
+    background-image: url(./background.jpg);
+  }
