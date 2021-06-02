@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import { MenuItems } from '../Navbar/MenuItems'
 import About from '../About/About'
 import Experience from '../Experience/Experience'
-import Contact from '../Contact/Contact'
 import Home from '../Home/Home'
 import './Navbar.css'
 import Paper from  '@material-ui/core/Paper';
