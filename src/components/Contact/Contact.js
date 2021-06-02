@@ -6,7 +6,7 @@ class Contact extends Component {
         return (
             <div className="container">
                 <Grid>
-                    <h1>Test</h1>
+                    <h1>Contact Info</h1>
                 </Grid>
             </div>
         );

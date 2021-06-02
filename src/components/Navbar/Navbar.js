@@ -7,6 +7,7 @@ import Contact from '../Contact/Contact'
 import Home from '../Home/Home'
 import './Navbar.css'
 import Paper from  '@material-ui/core/Paper';
+
 class Navbar extends Component {
     state = { clicked: false }
 
