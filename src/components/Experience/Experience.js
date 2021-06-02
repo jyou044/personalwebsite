@@ -50,7 +50,7 @@ export default function Experience() {
                                     
                                         <br /><br />
                                         I am always striving to challenge myself and am open to internship opportunities in both the private and public sectors. If the opportunity arises,
-                                        my contact information can be found under the contact tab!
+                                        I am readily available!
                                      </b>
                                     </p>
                                     
