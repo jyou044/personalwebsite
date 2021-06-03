@@ -8,8 +8,8 @@ import './Navbar.css'
 import Paper from  '@material-ui/core/Paper';
 
 class Navbar extends Component {
-    state = { clicked: false }
 
+    state = { clicked: false }
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked })
     }
@@ -26,14 +26,15 @@ class Navbar extends Component {
                             </div>
                             <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                                 {MenuItems.map((item, index) => {
-                                    return (
-                                        <li key={index}>
-                                            <NavLink to={item.url} className={item.cName} >
-                                                {item.title}
-                                            </NavLink>
-                                        </li>
-                                    )
-                                })}
+                                        return (
+
+                                            <li key={index}>
+                                                    <NavLink to={item.url} className={item.cName} onClick={this.handleClick}>
+                                                        {item.title}
+                                                    </NavLink>
+                                            </li>
+                                        )
+                                    })}
                             </ul>
                         </nav>
                     </Paper>

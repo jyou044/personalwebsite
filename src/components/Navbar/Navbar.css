@@ -7,9 +7,6 @@
     align-items: center;
     font-size:1.2rem;
 }
-.container{
-    background-image: url(./background.jpg);
-  }
   
 .navbar-logo {
     color: black;
@@ -39,6 +36,7 @@
     color:black;
     text-decoration: none;
     padding: 05rem 1rem;
+    transition: all 0.5s ease;
 }
 
 .fa-bars {
@@ -57,7 +55,6 @@
     .NavbarItems {
         position: relative;
     }
-
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -78,13 +75,19 @@
         z-index: 1;
     }
 
+    .nav-menu.inactive {
+        display: none;
+    }
+
     .nav-links {
         text-align: center;
         padding: 2rem;
         width: 100%;
         display: table;
     }
-
+    .nav-close {
+        transform: translate(-100%, 60%);
+    }
     .navbar-logo {
         position: absolute;
         top: 0;
