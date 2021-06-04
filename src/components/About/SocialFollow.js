@@ -9,6 +9,12 @@ const useStyles = makeStyles((theme) => ({
     spacing: {
         marginBottom: '1rem',
       },
+      gitIcon: {
+        color: 'black',
+      },
+      linkedInColor: {
+        color: '#007efb',
+      },
   }));
 
 export default function SocialFollow() {
@@ -16,14 +22,14 @@ export default function SocialFollow() {
     return (
         <div>
             <Grid item xs={12}>
-                <Typography variant="h3" align="center" className={classes.textFormat} gutterBottom>My Profiles</Typography>
+                <Typography variant="h4" align="center" className={classes.textFormat} gutterBottom>My Profiles</Typography>
             </Grid>
             <Grid item xs={12} container
             direction="row"
             justify="center"
             alignItems="center" className={classes.spacing}>
-                <a href="https://github.com/jyou044" target="_blank" rel="noreferrer"><GitHubIcon style={{ fontSize: 50 }} /></a>
-                <a href="https://linkedin.com/in/jyou044" target="_blank" rel="noreferrer"> <LinkedInIcon style={{ fontSize: 50 }} /></a>
+                <a href="https://github.com/jyou044" target="_blank" rel="noreferrer"><GitHubIcon className={classes.gitIcon} style={{ fontSize: 50 }} /></a>
+                <a href="https://linkedin.com/in/jyou044" target="_blank" rel="noreferrer"> <LinkedInIcon className={classes.linkedInColor} style={{ fontSize: 50 }} /></a>
             </Grid>
         </div>
     );
