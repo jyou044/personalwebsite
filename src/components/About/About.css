@@ -5,8 +5,9 @@
     font-family: 'Montserrat', sans-serif;
   }
 
-  @media screen and (max-width: 900px) {
-    .About {
+  @media screen and (max-width: 1800px) {
+
+    .AboutItems {
         position: relative;
         display: flex;
         flex-direction: column;

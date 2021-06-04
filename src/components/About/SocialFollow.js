@@ -22,7 +22,7 @@ export default function SocialFollow() {
     return (
         <div>
             <Grid item xs={12}>
-                <Typography variant="h4" align="center" className={classes.textFormat} gutterBottom>My Profiles</Typography>
+                <Typography variant="h5" align="center" gutterBottom>My Profiles</Typography>
             </Grid>
             <Grid item xs={12} container
             direction="row"

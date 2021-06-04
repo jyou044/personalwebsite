@@ -17,7 +17,7 @@ class Navbar extends Component {
     render() {
         return(
             <Router>
-                <div>
+                <div className="spacing">
                     <Paper elevation={3} gutterBottom>
                         <nav className="NavbarItems">
                             <h1 className="navbar-logo">J Y</h1>
