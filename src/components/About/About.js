@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
       marginBottom: '1rem',
       color: theme.palette.text.primary,
       lineHeight: 2.6,
-      textAlign: 'left',
+      textAlign: 'center',
     },
     spacing: {
         marginBottom: '1rem',
@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
 export default function About() {
     const classes = useStyles();
     return (     
-        <div className="container">
+        <div>
                 <Grid item xs={12} container
                     direction="row"
                     justify="center"
