@@ -2,7 +2,6 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import CardMedia from '@material-ui/core/CardMedia';
 import './Experience.css';
 const useStyles = makeStyles((theme) => ({
     textFormat: {
@@ -53,14 +52,6 @@ export default function Experience() {
                                         I am readily available!
                                      </b>
                                     </p>
-                                    
-                                    <CardMedia
-                                    component="img"
-                                    alt="Waves"
-                                    height="140"
-                                    src={`${process.env.PUBLIC_URL}/background.jpg`} 
-                                    title="Waves"
-                                    />
                             </Grid>    
                     </Grid>
             </div>
