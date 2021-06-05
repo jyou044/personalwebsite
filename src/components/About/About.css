@@ -4,15 +4,3 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
   }
-
-  @media screen and (max-width: 1800px) {
-
-    .AboutItems {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-    }
-  }
-
-    

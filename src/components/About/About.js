@@ -2,6 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+import Photos from '../About/Photos';
 import './About.css';
 import SocialFollow from '../About/SocialFollow';
 import Image from '../About/Image';
@@ -36,16 +37,13 @@ const useStyles = makeStyles((theme) => ({
         textAlign: 'center',
         marginBottom: '1rem',
     },
-    root: {
-        flexGrow: 1,
-      },
   }));
   
 export default function About() {
     const classes = useStyles();
     return (     
-            <div className="AboutItems">
-                <Grid container spacing={2}>
+            <div>
+                <Grid item container>
                     <Grid item xs={12} xl={3}></Grid>
                     <Grid item xs={12} xl={3} className={classes.textFormat}>
                     <Typography variant="h2" align="center" gutterBottom>Hi, I'm Jason</Typography>
@@ -61,54 +59,13 @@ export default function About() {
                             <br /><br />I'm also a hobbyist photographer and baseball! I've been rooting for the Toronto Bluejays 
                             ever since I was in grade 4. During my spare time, I'll tune into a Jays game or go outside with my Cannon DSLR camera to take some pictures. </b></p>
                     </Grid>
-                </Grid>
-                <Grid container spacing={2} >
                     <Grid item xs={12} xl={12} className={classes.centerFormat}>
                     <Typography variant="h2" align="center" gutterBottom>My Photos</Typography>
                     </Grid>
-                </Grid>
-                <Grid container spacing={6}>
-                    <Grid item xs={12} xl = {3} className={classes.paraFormat}>
-                        <div className={classes.centerFormat}>
-                        <img 
-                                        alt="New York"
-                                        height="300"
-                                        src={`${process.env.PUBLIC_URL}/source/newyork1.jpg`} 
-                                        title="New York" 
-                                    />
-                        </div>
-                        </Grid>
-                        <Grid item xs={12} xl ={3} className={classes.paraFormat}>
+                    <Grid item xs={12} xl={12} className={classes.centerFormat}>
+                        <Photos />
+                    </Grid>
 
-                        <div className={classes.centerFormat}>
-                                    <img 
-                                        alt="Korea"
-                                        height="300"
-                                        src={`${process.env.PUBLIC_URL}/source/korea.jpg`} 
-                                        title="Korea" 
-                                    />
-                                    </div>
-                        </Grid>
-                        <Grid item xs={12} xl ={3} className={classes.paraFormat}>
-                        <div className={classes.centerFormat}>
-                        <img 
-                                        alt="Korea"
-                                        height="300"
-                                        src={`${process.env.PUBLIC_URL}/source/korea2.jpg`} 
-                                        title="Korea" 
-                                    />
-                                    </div>
-                        </Grid>
-                        <Grid item xs={12} xl ={3} className={classes.paraFormat}>
-                        <div className={classes.centerFormat}>
-                        <img 
-                                        alt="Korea"
-                                        height="300"
-                                        src={`${process.env.PUBLIC_URL}/source/brooklyn2.jpg`} 
-                                        title="Korea" 
-                                    />
-                                    </div>
-                        </Grid>
                     </Grid>
                 </div>
 
