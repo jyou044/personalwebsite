@@ -1,15 +1,14 @@
 import React from 'react';
-import CardMedia from '@material-ui/core/CardMedia';
 export default function Image() {
 return (
     <div>
-        <CardMedia
-                component="img"
-                alt="lights"
-                 height="cover"
-                src={`${process.env.PUBLIC_URL}/simplicity.jpg`} 
-                title="lights"
-                                />
+                <img 
+                    alt="newyorkportrait"
+                    height="300"
+                    width="cover"
+                    src={`${process.env.PUBLIC_URL}/me.jpg`} 
+                    title="New York Portrait" 
+                />
     </div>
 );
 }
