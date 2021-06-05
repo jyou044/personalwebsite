@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import './Home.css';
-import Paper from  '@material-ui/core/Paper';
 import Image from '../Home/Image';
 const useStyles = makeStyles((theme) => ({
     textFormat: {
@@ -39,14 +38,12 @@ const useStyles = makeStyles((theme) => ({
                             <Image />                           
                         </Grid>
                     <Grid item xs={12} md={3} className={classes.paraFormat} style={{padding: 20}}>
-                        <Paper elevation={3} gutterBottom>
                             <h3 className={classes.textFormat}><i>"Simplicity is the ultimate sophistication" - Steve Jobs</i></h3>
                             <p> <b>Hi there! Welcome to my portfolio website. I'm an aspiring software engineer with an interest in web development, UI/UX design, and project management.
                                 Over the course of my professional career, I've worked on a variety of different projects ranging from websites to business intelligence reporting. I've interned 
                                 with reputable organizations such as the Department of National Defence and Employment and Social Development Canada. I'm incredibly passionate about programming.
                                 Please feel free to explore my website to find more about me! </b> 
                             </p>
-                        </Paper>
                     </Grid>
                 </Grid>
             </div>
