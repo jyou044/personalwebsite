@@ -3,7 +3,6 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles((theme) => ({
     spacing: {
@@ -21,9 +20,6 @@ export default function SocialFollow() {
     const classes = useStyles();
     return (
         <div>
-            <Grid item xs={12}>
-                <Typography variant="h5" align="center" gutterBottom>My Profiles</Typography>
-            </Grid>
             <Grid item xs={12} container
             direction="row"
             justify="center"
