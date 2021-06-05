@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: '1rem',
         color: theme.palette.text.primary,
         lineHeight: 2.6,
-        textAlign: 'left',
+        textAlign: 'center',
     },
     resumeColor: {
         color: 'black',
@@ -59,7 +59,7 @@ export default function About() {
                     </Grid>
                     <Grid item xs={12} md={3} className={classes.paraFormat}>
                         <Typography variant="h5" align="center" className={classes.spacing} gutterBottom></Typography>
-                        <Typography variant="h2" align="center" gutterBottom>Hi, I'm Jason</Typography>
+                        <Typography variant="h2" align="center" gutterBottom>I'm Jason</Typography>
                         <Typography variant="h2" align="center" className={classes.spacing} gutterBottom> </Typography>
                         <p> <b>I'm a 3rd year software engineering student at the University of Ottawa.
                                 From a young age, I have been fascinated with the field of Information Technology and it's applications. I am interested in UI/UX design and web development. <br /> <br />As I made evident in my home page, I am an avid admirer of Steve Jobs and truly believe that simplicity is the ultimate sophistication!
@@ -89,4 +89,3 @@ export default function About() {
 
     );
 }
-

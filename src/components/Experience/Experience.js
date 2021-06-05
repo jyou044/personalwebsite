@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: '1rem',
         color: theme.palette.text.primary,
         lineHeight: 2.6,
-        textAlign: 'left',
+        textAlign: 'center',
     },
   }));
 
@@ -28,7 +28,7 @@ export default function Experience() {
                 <Grid item container>
                 <Grid item xs={12} md={12}></Grid>
                 <Grid item xs={12} md={12} className={classes.textFormat}>
-                <Typography variant="h2" align="center" className={classes.spacing} gutterBottom>My Story</Typography>
+                <Typography variant="h2" align="center" className={classes.spacing} gutterBottom>My Journey into Tech</Typography>
 
                     </Grid>
                 </Grid>
