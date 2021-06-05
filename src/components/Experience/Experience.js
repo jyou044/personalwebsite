@@ -33,7 +33,15 @@ export default function Experience() {
                     </Grid>
                 </Grid>
                 <Grid item container>
-                <Grid item xs={12} md={4}></Grid>
+                <Grid item xs={12} md={4} className={classes.textFormat}>
+                    <img
+                alt="iriver"
+                height="200"
+                    src={`${process.env.PUBLIC_URL}/source/iriver.jpg`} 
+                title="iriver" 
+            />
+            <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>An iRiver MP3, one of the first electronic devices I used</i></Typography>
+                </Grid>
                 <Grid item xs={12} md={4} className={classes.paraFormat}> 
                     <p> <b>
                                             Technology has always been of the utmost interest to me. Ever since an early age, I was exposed to a variety of gadgets ranging from MP3 Players to iPods, primarily
@@ -53,7 +61,15 @@ export default function Experience() {
                                         </b>
                                         </p>
                 </Grid>
-                <Grid item xs={12} md={4}></Grid>
+                <Grid item xs={12} md={4} className={classes.textFormat}>
+                    <img
+                    alt="helloworld"
+                    height="200"
+                        src={`${process.env.PUBLIC_URL}/source/helloworld.png`} 
+                    title="iriver" 
+                />
+                <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>The classic "Hello World" program was one of the first lines of code I wrote</i></Typography>
+                </Grid>
             </Grid>
             </div>
         );
