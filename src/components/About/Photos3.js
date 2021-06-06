@@ -40,40 +40,40 @@ return (
 <Grid item className={classes.paraFormat}>
     <div className={classes.centerFormat}>
     <img 
-                    alt="New York"
+                    alt="Distillery District"
                     height="200"
                     src={`${process.env.PUBLIC_URL}/source/photos3_1.jpg`} 
-                    title="New York" 
+                    title="Distillery District" 
                 />
     </div>
     </Grid>
     <Grid item className={classes.paraFormat}>
     <div className={classes.centerFormat}>
     <img 
-                    alt="Korea"
+                    alt="Distillery District"
                     height="200"
                     src={`${process.env.PUBLIC_URL}/source/photos3_2.jpg`} 
-                    title="Korea" 
+                    title="Distillery District" 
                 />
     </div>
     </Grid>
     <Grid item className={classes.paraFormat}>
     <div className={classes.centerFormat}>
     <img 
-                    alt="Korea"
+                    alt="Distillery District"
                     height="200"
                     src={`${process.env.PUBLIC_URL}/source/photos3_3.jpg`} 
-                    title="Korea" 
+                    title="Distillery District" 
                 />
                 </div>
     </Grid>
     <Grid itemclassName={classes.paraFormat}>
     <div className={classes.centerFormat}>
     <img 
-                    alt="Korea"
+                    alt="Balzac's Coffee"
                     height="200"
                     src={`${process.env.PUBLIC_URL}/source/photos3_4.jpg`} 
-                    title="Korea" 
+                    title="Balzac's Coffee" 
                 />
                 </div>
     </Grid>
