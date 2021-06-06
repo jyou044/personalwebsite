@@ -81,9 +81,8 @@ export default function Experience() {
             </Grid>
             <Grid container>
                     <Grid item xs={12} md={4}></Grid>
-                    <Grid item xs={12} md={4} className={classes.textFormat}>
-                    <Typography variant="h6" align="center" className={classes.spacing} gutterBottom>Computers have come a long way since the 90s! In this day and age, I believe that it is important that people are well informed
-                    of technological advancements and uses of computers. </Typography>
+                    <Grid item xs={12} md={4} classes={classes.paraFormat}>
+                        <Typography variant="h3" align="center" gutterBottom> A word from Homer</Typography>
                     </Grid>
                 </Grid>
             <Grid container className={classes.videoFormat}>
@@ -98,6 +97,13 @@ export default function Experience() {
                                 controls={true}
                                 />
                         </Grid>
+                </Grid>
+                <Grid container>
+                    <Grid item xs={12} md={4}></Grid>
+                    <Grid item xs={12} md={4} className={classes.textFormat}>
+                    <Typography variant="h6" align="center" className={classes.spacing} gutterBottom>Computers have come a long way since the 90s! In this day and age, I believe that it is important that people are well informed
+                    of technological advancements and uses of computers. </Typography>
+                    </Grid>
                 </Grid>
             </div>
         );
