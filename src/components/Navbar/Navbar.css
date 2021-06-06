@@ -14,7 +14,10 @@
     margin-left: 40px;
     cursor: pointer;
 }
-
+.click:hover {
+    transform: scale(0.6);
+    transition-duration: 0.5s;
+}
 /* Change the color of links on hover */
 .navbar-hover {
     background-color: rgba(221, 221, 221, 0.616);

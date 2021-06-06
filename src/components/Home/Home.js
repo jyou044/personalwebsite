@@ -35,23 +35,26 @@ const useStyles = makeStyles((theme) => ({
                         <Typography variant="h2" align="center" className={classes.textFormat} gutterBottom>Jason You</Typography>
                        
                     </Grid>
-                    <Grid item xs={12}>
-                        <Typography variant="h5" className={classes.textFormat} gutterBottom>A portfolio showcasing my interests and work</Typography>
-                    </Grid>
                 </Grid>
                 <Grid container>
                     <Grid item xs={12} md={3}></Grid>
-                    <Grid item xs={12} md={3} className={classes.textFormat}>
+                    <Grid item xs={12} md={3} align="center">
                             <Image />                           
                         </Grid>
                     <Grid item xs={12} md={3} className={classes.paraFormat} style={{padding: 20}}>
                             <h3 className={classes.textFormat}><i>"Simplicity is the ultimate sophistication" - Steve Jobs</i></h3>
-                            <p> <b>Hi there! Welcome to my portfolio website. I'm an aspiring software engineer with an interest in web development, UI/UX design, and project management.
+                    </Grid>
+                </Grid>
+                <Grid container>
+                    <Grid item xs={12} md={4}></Grid>
+                    <Grid item xs={12} md={4} className={classes.paraFormat} style={{padding: 20}}>
+                    <p> <b>Hi there! Welcome to my portfolio website. I'm an aspiring software engineer with an interest in web development, UI/UX design, and project management.
                                 Over the course of my professional career, I've worked on a variety of different projects ranging from websites to business intelligence reporting. I've interned 
                                 with reputable organizations such as the Department of National Defence and Employment and Social Development Canada. I'm incredibly passionate about programming.
                                 Please feel free to explore my website to find more about me! </b> 
                             </p>
                     </Grid>
+               
                 </Grid>
                 <Grid container>
                     <Grid item xs={12} md={4}></Grid>
