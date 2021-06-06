@@ -65,7 +65,6 @@ const useStyles = makeStyles((theme) => ({
                         <ReactPlayer
                                 url="https://www.youtube.com/watch?v=kYfNvmF0Bqw"
                                 className="react-player"
-                                playing
                                 width="100%"
                                 height="100%"
                                 controls={true}
