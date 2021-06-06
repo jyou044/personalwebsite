@@ -43,7 +43,7 @@ export default function Experience() {
                  <Grid container>
                     <Grid item xs={12} md={4}></Grid>
                     <Grid item xs={12} md={4} classes={classes.paraFormat}>
-                        <Typography variant="h6" align="center" gutterBottom><b>A word from Homer</b></Typography>
+                        <Typography variant="h4" align="center" gutterBottom><b>A word from Homer</b></Typography>
                     </Grid>
                 </Grid>
             <Grid container className={classes.videoFormat}>
