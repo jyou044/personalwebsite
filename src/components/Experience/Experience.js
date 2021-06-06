@@ -2,6 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+import ReactPlayer from 'react-player';
 import './Experience.css';
 const useStyles = makeStyles((theme) => ({
     textFormat: {
@@ -21,6 +22,10 @@ const useStyles = makeStyles((theme) => ({
     },
     heightVal: {
         backgroundSize: 'cover',
+    },
+    videoFormat: {
+        marginBottom: '1rem',
+        textAlign: 'center',
     },
   }));
 
@@ -74,6 +79,26 @@ export default function Experience() {
                     <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>The classic "Hello World" program was one of the first lines of code I wrote</i></Typography>
                     </Grid>
             </Grid>
+            <Grid container>
+                    <Grid item xs={12} md={4}></Grid>
+                    <Grid item xs={12} md={4} className={classes.textFormat}>
+                    <Typography variant="h6" align="center" className={classes.spacing} gutterBottom>Computers have come a long way since the 90s! In this day and age, I believe that it is important that people are well informed
+                    of technological advancements and uses of computers. </Typography>
+                    </Grid>
+                </Grid>
+            <Grid container className={classes.videoFormat}>
+                <Grid item xs={12} md={4}></Grid>
+                    <Grid item xs={12} md={4} className={classes.videoFormat} style={{padding: 10}}> 
+                        <ReactPlayer
+                                url="https://www.youtube.com/watch?v=cczz9-tDPIY&ab_channel=IainFrameIainFrame"
+                                className="react-player"
+                                playing
+                                width="100%"
+                                height="100%"
+                                controls={true}
+                                />
+                        </Grid>
+                </Grid>
             </div>
         );
     }
