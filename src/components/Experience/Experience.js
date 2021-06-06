@@ -33,6 +33,32 @@ export default function Experience() {
     const classes = useStyles();
         return (
             <div>
+                 <Grid container>
+                    <Grid item xs={12} md={4}></Grid>
+                    <Grid item xs={12} md={4} classes={classes.paraFormat}>
+                        <Typography variant="h3" align="center" gutterBottom> A word from Homer</Typography>
+                    </Grid>
+                </Grid>
+            <Grid container className={classes.videoFormat}>
+                <Grid item xs={12} md={4}></Grid>
+                    <Grid item xs={12} md={4} className={classes.videoFormat} style={{padding: 10}}> 
+                        <ReactPlayer
+                                url="https://www.youtube.com/watch?v=cczz9-tDPIY&ab_channel=IainFrameIainFrame"
+                                className="react-player"
+                                playing
+                                width="100%"
+                                height="100%"
+                                controls={true}
+                                />
+                        </Grid>
+                </Grid>
+                <Grid container>
+                    <Grid item xs={12} md={4}></Grid>
+                    <Grid item xs={12} md={4} className={classes.textFormat}>
+                    <Typography variant="h6" align="center" className={classes.spacing} gutterBottom>Computers have come a long way since the 90s! In this day and age, I believe that it is important that people are well informed
+                    of technological advancements and uses of computers. </Typography>
+                    </Grid>
+                </Grid>
                 <Grid item container>
                 <Grid item xs={12} md={12}></Grid>
                 <Grid item xs={12} md={12} className={classes.textFormat}>
@@ -79,32 +105,7 @@ export default function Experience() {
                     <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>The classic "Hello World" program was one of the first lines of code I wrote</i></Typography>
                     </Grid>
             </Grid>
-            <Grid container>
-                    <Grid item xs={12} md={4}></Grid>
-                    <Grid item xs={12} md={4} classes={classes.paraFormat}>
-                        <Typography variant="h3" align="center" gutterBottom> A word from Homer</Typography>
-                    </Grid>
-                </Grid>
-            <Grid container className={classes.videoFormat}>
-                <Grid item xs={12} md={4}></Grid>
-                    <Grid item xs={12} md={4} className={classes.videoFormat} style={{padding: 10}}> 
-                        <ReactPlayer
-                                url="https://www.youtube.com/watch?v=cczz9-tDPIY&ab_channel=IainFrameIainFrame"
-                                className="react-player"
-                                playing
-                                width="100%"
-                                height="100%"
-                                controls={true}
-                                />
-                        </Grid>
-                </Grid>
-                <Grid container>
-                    <Grid item xs={12} md={4}></Grid>
-                    <Grid item xs={12} md={4} className={classes.textFormat}>
-                    <Typography variant="h6" align="center" className={classes.spacing} gutterBottom>Computers have come a long way since the 90s! In this day and age, I believe that it is important that people are well informed
-                    of technological advancements and uses of computers. </Typography>
-                    </Grid>
-                </Grid>
+           
             </div>
         );
     }
