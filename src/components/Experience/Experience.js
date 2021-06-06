@@ -19,12 +19,16 @@ const useStyles = makeStyles((theme) => ({
         lineHeight: 2.6,
         textAlign: 'center',
     },
+    heightVal: {
+        backgroundSize: 'cover',
+    },
   }));
 
 export default function Experience() {
     const classes = useStyles();
         return (
-            <div>
+            <div className={classes.heightVal} style={{ 
+                backgroundImage: `url(${process.env.PUBLIC_URL + '/source/Dotted-Background.jpg'})`}}>
                 <Grid item container>
                 <Grid item xs={12} md={12}></Grid>
                 <Grid item xs={12} md={12} className={classes.textFormat}>
@@ -33,43 +37,43 @@ export default function Experience() {
                     </Grid>
                 </Grid>
                 <Grid item container>
-                <Grid item xs={12} md={4} className={classes.textFormat} style={{padding: 20}}>
-                    <img
-                alt="iriver"
-                height="200"
-                    src={`${process.env.PUBLIC_URL}/source/iriver.jpg`} 
-                title="iriver" 
-            />
-            <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>An iRiver MP3, one of the first electronic devices I used</i></Typography>
-                </Grid>
-                <Grid item xs={12} md={4} className={classes.paraFormat} style={{padding: 20}}> 
-                    <p> <b>
-                                            Technology has always been of the utmost interest to me. Ever since an early age, I was exposed to a variety of gadgets ranging from MP3 Players to iPods, primarily
-                                            because of my dad's involvement in the field. 
-                                            I still remember the first time I wrote a computer program when I was 11 years old. To this date, I am thankful that I was exposed to the world of programming
-                                            and the many exciting opportunities that this field has to offer. 
-
-                                        <br /><br />
-                                            Since the end of my first year in university, I have had the privilege of completing several tech internships with various departments within the Government of Canada. From
-                                            web development to client support, it's safe to say that I've garnered a holistic view of the world of tech in my 2 years of professional experience.
-                                            Although I was exposed to some web development prior to the summer of 2021, it wasn't until I started using React JS and web technologies that I realized how much I loved
-                                            designing websites. So much so, that I felt that it was absolutely necessary for me to challenge myself and create my first website. 
-                                        
-                                            <br /><br />
-                                            I am always striving to challenge myself and am open to internship opportunities in both the private and public sectors. If the opportunity arises,
-                                            I am readily available!
-                                        </b>
-                                        </p>
-                </Grid>
-                <Grid item xs={12} md={4} className={classes.textFormat} style={{padding: 20}}>
-                    <img
-                    alt="helloworld"
+                    <Grid item xs={12} md={4} className={classes.textFormat} style={{padding: 20}}>
+                        <img
+                    alt="iriver"
                     height="200"
-                        src={`${process.env.PUBLIC_URL}/source/helloworld.png`} 
+                        src={`${process.env.PUBLIC_URL}/source/iriver.jpg`} 
                     title="iriver" 
                 />
-                <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>The classic "Hello World" program was one of the first lines of code I wrote</i></Typography>
-                </Grid>
+                <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>An iRiver MP3, one of the first electronic devices I used</i></Typography>
+                    </Grid>
+                    <Grid item xs={12} md={4} className={classes.paraFormat} style={{padding: 20}}> 
+                        <p> <b>
+                                                Technology has always been of the utmost interest to me. Ever since an early age, I was exposed to a variety of gadgets ranging from MP3 Players to iPods, primarily
+                                                because of my dad's involvement in the field. 
+                                                I still remember the first time I wrote a computer program when I was 11 years old. To this date, I am thankful that I was exposed to the world of programming
+                                                and the many exciting opportunities that this field has to offer. 
+
+                                            <br /><br />
+                                                Since the end of my first year in university, I have had the privilege of completing several tech internships with various departments within the Government of Canada. From
+                                                web development to client support, it's safe to say that I've garnered a holistic view of the world of tech in my 2 years of professional experience.
+                                                Although I was exposed to some web development prior to the summer of 2021, it wasn't until I started using React JS and web technologies that I realized how much I loved
+                                                designing websites. So much so, that I felt that it was absolutely necessary for me to challenge myself and create my first website. 
+                                            
+                                                <br /><br />
+                                                I am always striving to challenge myself and am open to internship opportunities in both the private and public sectors. If the opportunity arises,
+                                                I am readily available!
+                                            </b>
+                                            </p>
+                    </Grid>
+                    <Grid item xs={12} md={4} className={classes.textFormat} style={{padding: 20}}>
+                        <img
+                        alt="helloworld"
+                        height="200"
+                            src={`${process.env.PUBLIC_URL}/source/helloworld.png`} 
+                        title="iriver" 
+                    />
+                    <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>The classic "Hello World" program was one of the first lines of code I wrote</i></Typography>
+                    </Grid>
             </Grid>
             </div>
         );
