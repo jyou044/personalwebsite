@@ -15,4 +15,9 @@ export const MenuItems = [
         url:'MyStory',
         cName: 'nav-links'
     }, 
+    {
+        title: 'My Experience',
+        url: 'MyExperience',
+        cName: 'nav-links'
+    },
 ]
