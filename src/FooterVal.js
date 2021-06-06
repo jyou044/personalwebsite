@@ -8,7 +8,7 @@ class FooterVal extends Component{
       <Paper elevation={3}>
         {this.props.children}
         <h2 className="white-text"><center>© 2021 Jason You</center></h2>
-        <h2 className="grey-text text-lighten-4"><center>BETA V1.0</center></h2>
+        <h2 className="grey-text text-lighten-4"><center> V 1.0</center></h2>
       </Paper>
       
     </div>
