@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import './Home.css';
 import Image from '../Home/Image';
+import ReactPlayer from "react-player";
 const useStyles = makeStyles((theme) => ({
     textFormat: {
       padding: theme.spacing(2),
@@ -16,6 +17,10 @@ const useStyles = makeStyles((theme) => ({
         lineHeight: 2.6,
         textAlign: 'center',
     },
+    videoFormat: {
+        marginBottom: '1rem',
+        textAlign: 'center',
+    },
     heightVal: {
        backgroundSize: 'cover',
     },
@@ -24,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   export default function Home() {
         const classes = useStyles();
         return (
-            <div> 
+            <div className="player-wrapper"> 
                 <Grid container>
                     <Grid item xs={12}>
                         <Typography variant="h2" align="center" className={classes.textFormat} gutterBottom>Jason You</Typography>
@@ -37,7 +42,6 @@ const useStyles = makeStyles((theme) => ({
                 <Grid container>
                     <Grid item xs={12} md={3}></Grid>
                     <Grid item xs={12} md={3} className={classes.textFormat}>
-                        
                             <Image />                           
                         </Grid>
                     <Grid item xs={12} md={3} className={classes.paraFormat} style={{padding: 20}}>
@@ -48,6 +52,25 @@ const useStyles = makeStyles((theme) => ({
                                 Please feel free to explore my website to find more about me! </b> 
                             </p>
                     </Grid>
+                </Grid>
+                <Grid container>
+                    <Grid item xs={12} md={4}></Grid>
+                    <Grid item xs={12} md={4} classes={classes.textFormat}>
+                        <Typography variant="h3" className={classes.textFormat} gutterBottom> A word from Steve Jobs</Typography>
+                    </Grid>
+                </Grid>
+                <Grid container className={classes.videoFormat}>
+                <Grid item xs={12} md={4}></Grid>
+                    <Grid item xs={12} md={4} className={classes.videoFormat}> 
+                        <ReactPlayer
+                                url="https://www.youtube.com/watch?v=Md131bYEnE0"
+                                className="react-player"
+                                playing
+                                width="100%"
+                                height="100%"
+                                controls={true}
+                                />
+                        </Grid>
                 </Grid>
             </div>
         );

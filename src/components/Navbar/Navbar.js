@@ -27,8 +27,8 @@ class Navbar extends Component {
                                 {MenuItems.map((item, index) => {
                                         return (
 
-                                            <li key={index}>
-                                                    <NavLink to={item.url} className={item.cName} onClick={this.handleClick}>
+                                            <li key={index} >
+                                                    <NavLink to={item.url} className={item.cName} onClick={this.handleClick} >
                                                         {item.title}
                                                     </NavLink>
                                             </li>
