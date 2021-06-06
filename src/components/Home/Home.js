@@ -61,7 +61,7 @@ const useStyles = makeStyles((theme) => ({
                 </Grid>
                 <Grid container className={classes.videoFormat}>
                 <Grid item xs={12} md={4}></Grid>
-                    <Grid item xs={12} md={4} className={classes.videoFormat}> 
+                    <Grid item xs={12} md={4} className={classes.videoFormat} style={{padding: 10}}> 
                         <ReactPlayer
                                 url="https://www.youtube.com/watch?v=Md131bYEnE0"
                                 className="react-player"
