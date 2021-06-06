@@ -6,7 +6,6 @@ import Experience from '../Experience/Experience'
 import WorkExperience from '../Work Experience/MyExperience';
 import Home from '../Home/Home'
 import './Navbar.css'
-import Paper from  '@material-ui/core/Paper';
 
 class Navbar extends Component {
 
@@ -20,7 +19,6 @@ class Navbar extends Component {
             <Router>
                 <div className="spacing" style={{ 
                 backgroundImage: `url(${process.env.PUBLIC_URL + '/source/Dotted-Background.jpg'})`}}> 
-                    <Paper elevation={3} gutterBottom>
                         <nav className="NavbarItems">
                             <h1 className="navbar-logo">J Y</h1>
                             <div className="menu-icon" onClick={this.handleClick}>
@@ -39,7 +37,6 @@ class Navbar extends Component {
                                     })}
                             </ul>
                         </nav>
-                    </Paper>
                     <Route path="/" exact component={Home} />
                     <Route path="/Home" exact component={Home} />
                     <Route path="/About" component={About} />
