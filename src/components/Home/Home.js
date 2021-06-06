@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
                     <p> <b>Hi there! Welcome to my portfolio website. I'm an aspiring software engineer with an interest in web development, UI/UX design, and project management.
                                 Over the course of my professional career, I've worked on a variety of different projects ranging from websites to business intelligence reporting. I've interned 
                                 with reputable organizations such as the Department of National Defence and Employment and Social Development Canada. I'm incredibly passionate about programming.
-                                Please feel free to explore my website to find more about me! </b> 
+                                Please feel free to explore my website to find more out about me! </b> 
                             </p>
                     </Grid>
                
