@@ -40,14 +40,16 @@ export default function Experience() {
 
                     </Grid>
                 </Grid>
-                 <Grid container>
-                    <Grid item xs={12} md={4}></Grid>
-                    <Grid item xs={12} md={4} classes={classes.paraFormat}>
-                        <Typography variant="h4" align="center" gutterBottom><b>A word from Homer</b></Typography>
-                    </Grid>
-                </Grid>
             <Grid container className={classes.videoFormat}>
-                <Grid item xs={12} md={4}></Grid>
+                <Grid item xs={12} md={4} className={classes.textFormat} style={{padding: 20}}>
+                        <img
+                    alt="iriver"
+                    height="200"
+                        src={`${process.env.PUBLIC_URL}/source/iriver.jpg`} 
+                    title="iriver" 
+                /> 
+                <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>An iRiver MP3, one of the first electronic devices I used</i></Typography>
+                </Grid>
                     <Grid item xs={12} md={4} className={classes.videoFormat} style={{padding: 10}}> 
                         <ReactPlayer
                                 url="https://www.youtube.com/watch?v=cczz9-tDPIY&ab_channel=IainFrameIainFrame"
@@ -57,26 +59,26 @@ export default function Experience() {
                                 controls={true}
                                 />
                         </Grid>
-                </Grid>
-                <Grid container>
-                    <Grid item xs={12} md={4}></Grid>
-                    <Grid item xs={12} md={4} className={classes.textFormat}>
-                    <Typography variant="h6" align="center" className={classes.spacing} gutterBottom>Computers have come a long way since the 90s! In this day and age, I believe that it is important that people are well informed
-                    of technological advancements and uses of computers. </Typography>
-                    </Grid>
-                </Grid>
-                <Grid item container>
-                    <Grid item xs={12} md={4} className={classes.textFormat} style={{padding: 20}}>
+                        <Grid item xs={12} md={4} className={classes.textFormat} style={{padding: 20}}>
                         <img
-                    alt="iriver"
-                    height="200"
-                        src={`${process.env.PUBLIC_URL}/source/iriver.jpg`} 
-                    title="iriver" 
-                />
-                <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>An iRiver MP3, one of the first electronic devices I used</i></Typography>
+                        alt="helloworld"
+                        height="200"
+                            src={`${process.env.PUBLIC_URL}/source/helloworld.png`} 
+                        title="Hello World" 
+                    />
+                    <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>The classic "Hello World" program was one of the first lines of code I wrote</i></Typography>
                     </Grid>
+                
+                </Grid>
+                
+                <Grid item container>
+                <Grid item xs={12} md={4}></Grid>
+                
                     <Grid item xs={12} md={4} className={classes.paraFormat} style={{padding: 20}}> 
                         <p> <b>
+                                                As evident by the Simpsons clip above, computers have come a long way since the 90s! In this day and age, I believe that it is important that people are well informed
+                                                of technological advancements and uses of computers.
+                                            <br /><br />
                                                 Technology has always been of the utmost interest to me. Ever since an early age, I was exposed to a variety of gadgets ranging from MP3 Players to iPods, primarily
                                                 because of my dad's involvement in the field. 
                                                 I still remember the first time I wrote a computer program when I was 11 years old. To this date, I am thankful that I was exposed to the world of programming
@@ -94,17 +96,7 @@ export default function Experience() {
                                             </b>
                                             </p>
                     </Grid>
-                    <Grid item xs={12} md={4} className={classes.textFormat} style={{padding: 20}}>
-                        <img
-                        alt="helloworld"
-                        height="200"
-                            src={`${process.env.PUBLIC_URL}/source/helloworld.png`} 
-                        title="iriver" 
-                    />
-                    <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>The classic "Hello World" program was one of the first lines of code I wrote</i></Typography>
-                    </Grid>
             </Grid>
-           
             </div>
         );
     }
