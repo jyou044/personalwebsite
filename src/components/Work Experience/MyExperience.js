@@ -37,8 +37,7 @@ const useStyles = makeStyles((theme) => ({
 export default function MyExperience() {
     const classes = useStyles();
     return (     
-            <div style={{ 
-                backgroundImage: `url(${process.env.PUBLIC_URL + '/source/Dotted-Background.jpg'})`}}>
+            <div>
                  <Grid item container>
                         <Grid item xs={12} xl={12}>
                         <Typography variant="h5" align="center" className={classes.spacing} gutterBottom></Typography>

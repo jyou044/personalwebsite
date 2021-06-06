@@ -24,8 +24,7 @@ const useStyles = makeStyles((theme) => ({
   export default function Home() {
         const classes = useStyles();
         return (
-            <div className={classes.heightVal} style={{ 
-                backgroundImage: `url(${process.env.PUBLIC_URL + '/source/Dotted-Background.jpg'})`}}> 
+            <div> 
                 <Grid container>
                     <Grid item xs={12}>
                         <Typography variant="h2" align="center" className={classes.textFormat} gutterBottom>Jason You</Typography>

@@ -45,8 +45,7 @@ const useStyles = makeStyles((theme) => ({
 export default function About() {
     const classes = useStyles();
     return (     
-            <div style={{ 
-                backgroundImage: `url(${process.env.PUBLIC_URL + '/source/Dotted-Background.jpg'})`}}>
+            <div>
                 <Grid item container>
 
                     <Grid item xs={12} md={3}></Grid>

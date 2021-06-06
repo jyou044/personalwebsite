@@ -17,8 +17,7 @@ class Navbar extends Component {
     render() {
         return(
             <Router>
-                <div className="spacing" style={{ 
-                backgroundImage: `url(${process.env.PUBLIC_URL + '/source/Dotted-Background.jpg'})`}}> 
+                <div className="spacing"> 
                         <nav className="NavbarItems">
                             <h1 className="navbar-logo">J Y</h1>
                             <div className="menu-icon" onClick={this.handleClick}>
