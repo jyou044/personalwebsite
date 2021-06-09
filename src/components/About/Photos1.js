@@ -1,85 +1,42 @@
-
-import React from 'react';
-import Grid from '@material-ui/core/Grid';
-import { makeStyles } from '@material-ui/core/styles';
-const useStyles = makeStyles((theme) => ({
-    textFormat: {
-      marginBottom: '1rem',
-      color: theme.palette.text.primary,
-      lineHeight: 2.6,
-      textAlign: 'center',
+import image1 from './brookyln1.JPG';
+import image2 from './photos2_1.JPG';
+import image3 from './korea.JPG';
+import image4 from './korea2.JPG';
+import image5 from './photos2_2.JPG';
+import image6 from './photos2_3.JPG';
+import image7 from './photos2_4.JPG';
+import image8 from './photos3_1.JPG';
+import image9 from './photos3_2.JPG';
+import image10 from './photos3_3.JPG';
+export const Photos1 = [
+    {
+        image: image1
     },
-    centerFormat: {
-        textAlign: 'center',
+    {
+        image: image2
     },
-    spacing: {
-        marginBottom: '1rem',
+    {
+        image: image3
     },
-    paraFormat: {
-        marginBottom: '1rem',
-        color: theme.palette.text.primary,
-        lineHeight: 2.6,
-        textAlign: 'left',
+    {
+        image: image4
     },
-    resumeColor: {
-        color: 'black',
-        textAlign: 'center',
-        marginBottom: '1rem',
-      },
-      pdfColor: {
-        color: 'red',
-        textAlign: 'center',
-        marginBottom: '1rem',
+    {
+        image: image5
     },
-  }));
-export default function Photos1() {
-    const classes = useStyles();
-return (
-
-    <div className={classes.spacing}>
-<Grid item className={classes.paraFormat}>
-    <div className={classes.centerFormat}>
-    <img 
-                    alt="New York"
-                    height="200"
-                    src={`${process.env.PUBLIC_URL}/source/newyork1.jpg`} 
-                    title="New York" 
-                />
-    </div>
-    </Grid>
-    <Grid item className={classes.paraFormat}>
-    <div className={classes.centerFormat}>
-    <img 
-                    alt="Korea"
-                    height="200"
-                    src={`${process.env.PUBLIC_URL}/source/korea.jpg`} 
-                    title="Korea" 
-                />
-    </div>
-    </Grid>
-    <Grid item className={classes.paraFormat}>
-    <div className={classes.centerFormat}>
-    <img 
-                    alt="Korea"
-                    height="200"
-                    src={`${process.env.PUBLIC_URL}/source/korea2.jpg`} 
-                    title="Korea" 
-                />
-                </div>
-    </Grid>
-    <Grid itemclassName={classes.paraFormat}>
-    <div className={classes.centerFormat}>
-    <img 
-                    alt="Korea"
-                    height="200"
-                    src={`${process.env.PUBLIC_URL}/source/brooklyn2.jpg`} 
-                    title="Korea" 
-                />
-                </div>
-    </Grid>
-    </div>
-    
-);
-}
-
-                  
+    {
+        image: image6
+    },
+    {
+        image: image7
+    },
+    {
+        image: image8
+    },
+    {
+        image: image9
+    },
+    {
+        image: image10
+    },
+];

@@ -2,15 +2,13 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import Photos1 from '../About/Photos1';
-import Photos2 from '../About/Photo2';
-import Photos3 from '../About/Photos3';
-import Photos4 from '../About/Photos4';
+import {Photos1} from './Photos1';
 import './About.css';
 import SocialFollow from '../About/SocialFollow';
 import Image from '../About/Image';
 import Pdf from '../../components/About/Resume_JasonYou.pdf';
 import PictureAsPDF from '@material-ui/icons/PictureAsPdf';
+import Slider from './Slider';
 const useStyles = makeStyles((theme) => ({
     textFormat: {
       marginBottom: '1rem',
@@ -20,6 +18,13 @@ const useStyles = makeStyles((theme) => ({
     },
     centerFormat: {
         textAlign: 'center',
+    },
+    photoFormat: {
+        textAlign: 'center',
+        marginBottom: '12rem',
+    },
+    classSpacing: {
+        marginBottom: '15rem',
     },
     spacing: {
         marginBottom: '4rem',
@@ -40,13 +45,16 @@ const useStyles = makeStyles((theme) => ({
         textAlign: 'center',
         marginBottom: '1rem',
     },
+    slides: {
+        Photos1,
+    },
   }));
   
-export default function About() {
+export default function About({ slides }) {
     const classes = useStyles();
     return (     
             <div>
-                <Grid item container>
+                <Grid item container className={classes.classSpacing}>
 
                     <Grid item xs={12} md={3}></Grid>
                     <Grid item xs={12} md={3} className={classes.textFormat}>
@@ -64,27 +72,16 @@ export default function About() {
                         <p> <b>I'm a 3rd year software engineering student at the University of Ottawa.
                                 From a young age, I have been fascinated with the field of Information Technology and it's applications. <br /> <br />As I made evident in my home page, I am an avid admirer of Steve Jobs and truly believe that simplicity is the ultimate sophistication!
                                 <br /><br />I'm also a hobbyist photographer and baseball! I've been rooting for the Toronto Bluejays 
-                                ever since I was in grade 4. During my spare time, I'll tune into a Jays game or go outside with my Cannon DSLR camera to take some pictures. </b></p>
-                    </Grid>
-                    <Grid item xs={12} md={12} className={classes.centerFormat}>
-                    <Typography variant="h2" align="center" gutterBottom>My Photos</Typography>
+                                ever since I was in grade 4. During my spare time, I'll tune into a Jays game or go outside with my Cannon DSLR camera to take some pictures. Below are some photos I have taken! </b></p>
                     </Grid>
                     </Grid>
-                    <Grid item container>
-                        <Grid item xs lg={3} className={classes.centerFormat}>
-                            <Photos1 />
-                        </Grid>
-                        <Grid item xs lg={3} className={classes.centerFormat}>
-                            <Photos2 />
-                        </Grid>
-                        <Grid item xs lg={3} className={classes.centerFormat}>
-                            <Photos3 />
-                        </Grid>
-                        <Grid item xs lg={3} className={classes.centerFormat}>
-                            <Photos4 />
-                        </Grid>
-
+                    <Grid item container className={classes.photoFormat}>
+                    <Grid item xs={12} md ={4}>
                     </Grid>
+                    <Grid item xs={12} md={4} style={{padding: 20}}>
+                    <Slider slides={Photos1} />
+                    </Grid>    
+                    </Grid>                    
                 </div>
 
     );
