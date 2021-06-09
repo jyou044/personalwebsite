@@ -1,42 +1,27 @@
-import image1 from './brookyln1.JPG';
-import image2 from './photos2_1.JPG';
-import image3 from './korea.JPG';
-import image4 from './korea2.JPG';
-import image5 from './photos2_2.JPG';
-import image6 from './photos2_3.JPG';
-import image7 from './photos2_4.JPG';
-import image8 from './photos3_1.JPG';
-import image9 from './photos3_2.JPG';
-import image10 from './photos3_3.JPG';
+
 export const Photos1 = [
     {
-        image: image1
+        image: 'https://i.imgur.com/m4LUlfB.jpeg'
     },
     {
-        image: image2
+        image: 'https://i.imgur.com/6kDvic0.jpeg'
     },
     {
-        image: image3
+        image: 'https://i.imgur.com/YSuBywH.jpeg'
     },
     {
-        image: image4
+        image: 'https://i.imgur.com/tyZ2fUV.jpeg'
     },
     {
-        image: image5
+        image: 'https://i.imgur.com/5cerBr5.jpeg'
     },
     {
-        image: image6
+        image: 'https://i.imgur.com/jL0frN7.jpeg'
     },
     {
-        image: image7
+        image: 'https://i.imgur.com/6IAu30x.jpeg'
     },
     {
-        image: image8
-    },
-    {
-        image: image9
-    },
-    {
-        image: image10
+        image: 'https://i.imgur.com/oOX4RuH.jpeg'
     },
 ];
