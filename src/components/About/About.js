@@ -71,8 +71,8 @@ export default function About({ slides }) {
                         <Typography variant="h2" align="center" className={classes.spacing} gutterBottom> </Typography>
                         <p> <b>I'm a 3rd year software engineering student at the University of Ottawa.
                                 From a young age, I have been fascinated with the field of Information Technology and it's applications. <br /> <br />As I made evident in my home page, I am an avid admirer of Steve Jobs and truly believe that simplicity is the ultimate sophistication!
-                                <br /><br />I'm also a hobbyist photographer and baseball! I've been rooting for the Toronto Bluejays 
-                                ever since I was in grade 4. During my spare time, I'll tune into a Jays game or go outside with my Cannon DSLR camera to take some pictures. Below are some photos I have taken! </b></p>
+                                <br /><br />During my spare time, I'll tune into a Jays game or go outside with my Cannon DSLR camera to take some pictures. Below are some photos I have taken! 
+                            </b></p>
                     </Grid>
                     </Grid>
                     <Grid item container className={classes.photoFormat}>
