@@ -4,7 +4,6 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import './Home.css';
 import Image from '../Home/Image';
-import ReactPlayer from "react-player";
 const useStyles = makeStyles((theme) => ({
     textFormat: {
       padding: theme.spacing(2),
