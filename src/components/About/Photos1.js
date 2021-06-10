@@ -24,4 +24,19 @@ export const Photos1 = [
     {
         image: 'https://i.imgur.com/oOX4RuH.jpeg'
     },
+     {
+        image: 'https://i.imgur.com/HLZoSI2.jpg'
+    },
+    {
+        image: 'https://i.imgur.com/JuB7zBv.jpg'
+    },
+    {
+        image: 'https://i.imgur.com/LKiqJXL.jpg'
+    },
+    {
+        image: 'https://i.imgur.com/hLNLRRv.jpg'
+    },
+     {
+        image: 'https://i.imgur.com/BeA8F3g.jpg'
+    },
 ];

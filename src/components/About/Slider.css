@@ -11,10 +11,31 @@
     width: 100%;
     border-radius: 10px;
   }
-
+  .header {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: -240%;
+    font-size: 1.5rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  .counter {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: -200%;
+    font-size: 1.5rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
   .right-arrow {
     position: absolute;
-    top: 50%;
+    top: 30%;
     right: 0px;
     font-size: 3rem;
     color: white;
@@ -25,7 +46,7 @@
 
   .left-arrow {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 0px;
     font-size: 3rem;
     color: white;
