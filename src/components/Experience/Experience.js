@@ -59,10 +59,10 @@ export default function Experience() {
                                 controls={true}
                                 />
                         </Grid>
-                        <Grid item xs={12} md={4} className={classes.textFormat} style={{padding: 20}}>
+                        <Grid item xs={12} md={4} className={classes.videoFormat} style={{padding: 10}}>
                         <img
                         alt="helloworld"
-                        height="200"
+                        height="170"
                             src={`${process.env.PUBLIC_URL}/source/helloworld.png`} 
                         title="Hello World" 
                     />

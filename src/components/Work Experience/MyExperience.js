@@ -39,9 +39,9 @@ export default function MyExperience() {
     return (     
             <div>
                  <Grid item container>
-                        <Grid item xs={12} xl={12}>
+                        <Grid item xs={12} className={classes.textFormat} style={{padding: 20}}>
                         <Typography variant="h5" align="center" className={classes.spacing} gutterBottom></Typography>
-                        <Typography variant="h2" align="center" gutterBottom><b>Work Experience</b></Typography>
+                        <Typography variant="h3" align="center" gutterBottom><b>Work Experience</b></Typography>
                         </Grid>
                     </Grid>
                 <Grid item container>
@@ -51,7 +51,7 @@ export default function MyExperience() {
                         <Typography variant="h6" align="center" gutterBottom><b><i>May 2021 - August 2021</i></b></Typography>
                         <img
                             alt="esdc"
-                            height="150"
+                            height="100"
                                 src={`${process.env.PUBLIC_URL}/source/esdc.png`} 
                             title="esdc" 
                         />
@@ -68,7 +68,7 @@ export default function MyExperience() {
                         <Typography variant="h6" align="center" gutterBottom><b><i>October 2020 - April 2021</i></b></Typography>
                         <img
                     alt="Government of Canada"
-                    height="200"
+                    height="150"
                         src={`${process.env.PUBLIC_URL}/source/GovCanada.jpg`} 
                     title="Canada" 
                 />
