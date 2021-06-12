@@ -65,7 +65,7 @@ export default function About({ slides }) {
                         <a href= {Pdf}  target="_blank" rel="noreferrer"> <PictureAsPDF className={classes.pdfColor} style={{ fontSize: 50 }}/></a>
                         <Image />
                     </Grid>
-                    <Grid item xs={12} md={3} className={classes.paraFormat} style={{padding: 20}}>
+                    <Grid item xs={12} md={3} className={classes.paraFormat} style={{padding: 20, marginBottom: 20}}>
                         <Typography variant="h5" align="center" className={classes.spacing} gutterBottom></Typography>
                         <Typography variant="h2" align="center" gutterBottom>I'm Jason</Typography>
                         <Typography variant="h2" align="center" className={classes.spacing} gutterBottom> </Typography>

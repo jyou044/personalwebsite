@@ -22,8 +22,6 @@ const Slider = ({ slides }) => {
         <section className="slider">
                             <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
                             <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide}/>
-                            <div className="header"><h2>Photos</h2></div>
-                            <div className="counter">{current+1}/{length}</div>
                             {Photos1.map((slide, index) => {
 
                                 return (
