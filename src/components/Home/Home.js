@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
                             <Image />                           
                         </Grid>
                     <Grid item xs={12} md={3} className={classes.paraFormat} style={{padding: 20}}>
-                            <h3 className={classes.textFormat}><i>"Simplicity is the ultimate sophistication" - Steve Jobs</i></h3>
+                            <h3 className={classes.textFormat}><i>"Simplicity is the ultimate sophistication" - Philosophy embraced by Steve Jobs and Apple</i></h3>
                     </Grid>
                 </Grid>
                 <Grid container>
