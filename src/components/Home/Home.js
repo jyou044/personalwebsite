@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
                     <Grid item xs={12} md={4} className={classes.paraFormat} style={{padding: 20}}>
                     <p> <b>Hi there! Welcome to my portfolio website. I'm an aspiring software engineer with an interest in web development, UI/UX design, and project management.
                                 Over the course of my professional career, I've worked on a variety of different projects ranging from websites to business intelligence reporting. I've interned 
-                                with reputable organizations such as the Department of National Defence and Employment and Social Development Canada. I'm incredibly passionate about programming.
+                                at reputable organizations such as the Department of National Defence and Employment and Social Development Canada. I'm incredibly passionate about programming.
                                 Please feel free to explore my website to find out more about me! </b> 
                             </p>
                     </Grid>
