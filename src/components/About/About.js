@@ -13,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
     photoFormat: {
         textAlign: 'center',
         marginBottom: '12rem',
+        padding: '2rem',
     },
     classSpacing: {
         marginBottom: '1.5rem',
@@ -23,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
     paraFormat: {
         marginBottom: '1rem',
         color: theme.palette.text.primary,
-        lineHeight: 2.6,
+        lineHeight: 2.5,
         textAlign: 'center',
     },
       meFormat: {
@@ -66,9 +67,9 @@ export default function About({ slides }) {
                     </Grid>
                     </Grid>
                     <Grid item container className={classes.photoFormat}>
-                        <Grid item xs={12} md ={4}>
-                        </Grid>
-                        <Grid item xs={12} md={4} style={{padding: 20}}>
+                        <Grid item xs={12} md={4}>
+                        </Grid> 
+                        <Grid item xs={12} md={4}style={{padding: 20, marginTop: 20}}>
                         <Slider slides={Photos1} />
                         </Grid>    
                     </Grid>                    
