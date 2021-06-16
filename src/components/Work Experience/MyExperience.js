@@ -40,7 +40,6 @@ export default function MyExperience() {
             <div>
                  <Grid item container>
                         <Grid item xs={12} className={classes.textFormat} style={{padding: 20}}>
-                        <Typography variant="h5" align="center" className={classes.spacing} gutterBottom></Typography>
                         <Typography variant="h3" align="center" gutterBottom><b>Work Experience</b></Typography>
                         </Grid>
                     </Grid>
