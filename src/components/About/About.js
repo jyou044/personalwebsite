@@ -5,26 +5,17 @@ import { makeStyles } from '@material-ui/core/styles';
 import {Photos1} from './Photos1';
 import './About.css';
 import SocialFollow from '../About/SocialFollow';
-import Image from '../About/Image';
-import Pdf from '../../components/About/Resume_JasonYou.pdf';
-import PictureAsPDF from '@material-ui/icons/PictureAsPdf';
+//import Image from '../About/Image';
+
 import Slider from './Slider';
 const useStyles = makeStyles((theme) => ({
-    textFormat: {
-      marginBottom: '1rem',
-      color: theme.palette.text.primary,
-      lineHeight: 2.6,
-      textAlign: 'center',
-    },
-    centerFormat: {
-        textAlign: 'center',
-    },
+  
     photoFormat: {
         textAlign: 'center',
         marginBottom: '12rem',
     },
     classSpacing: {
-        marginBottom: '15rem',
+        marginBottom: '1.5rem',
     },
     spacing: {
         marginBottom: '4rem',
@@ -35,16 +26,11 @@ const useStyles = makeStyles((theme) => ({
         lineHeight: 2.6,
         textAlign: 'center',
     },
-    resumeColor: {
-        color: 'black',
+      meFormat: {
         textAlign: 'center',
-        marginBottom: '1rem',
+        marginBottom: '8rem',
+        marginTop: '1rem',
       },
-      pdfColor: {
-        color: 'red',
-        textAlign: 'center',
-        marginBottom: '1rem',
-    },
     slides: {
         Photos1,
     },
@@ -57,15 +43,19 @@ export default function About({ slides }) {
                 <Grid item container className={classes.classSpacing}>
 
                     <Grid item xs={12} md={3}></Grid>
-                    <Grid item xs={12} md={3} className={classes.textFormat}>
+                    <Grid item xs={12} md={3} className={classes.paraFormat} style={{padding: 20, marginBottom: 10}}>
                         <Typography variant="h5" align="center" className={classes.spacing} gutterBottom></Typography>
                         <Typography variant="h5" align="center" gutterBottom><b>My Profiles</b></Typography>
                         <SocialFollow />
-                        <Typography variant="h5" align="center" gutterBottom><b>Download Resume</b></Typography>
-                        <a href= {Pdf}  target="_blank" rel="noreferrer"> <PictureAsPDF className={classes.pdfColor} style={{ fontSize: 50 }}/></a>
-                        <Image />
+                        <img className={classes.meFormat}
+                            alt="Jason You"
+                            height="300"
+                            src={`${process.env.PUBLIC_URL}/source/jasonyouprofile.jpg.jpg`} 
+                            title="It's me!" 
+                           
+                        />
                     </Grid>
-                    <Grid item xs={12} md={3} className={classes.paraFormat} style={{padding: 20, marginBottom: 20}}>
+                    <Grid item xs={12} md={3} className={classes.paraFormat} style={{padding: 20}}>
                         <Typography variant="h5" align="center" className={classes.spacing} gutterBottom></Typography>
                         <Typography variant="h2" align="center" gutterBottom>I'm Jason</Typography>
                         <Typography variant="h2" align="center" className={classes.spacing} gutterBottom> </Typography>
@@ -76,11 +66,11 @@ export default function About({ slides }) {
                     </Grid>
                     </Grid>
                     <Grid item container className={classes.photoFormat}>
-                    <Grid item xs={12} md ={4}>
-                    </Grid>
-                    <Grid item xs={12} md={4} style={{padding: 20}}>
-                    <Slider slides={Photos1} />
-                    </Grid>    
+                        <Grid item xs={12} md ={4}>
+                        </Grid>
+                        <Grid item xs={12} md={4} style={{padding: 20}}>
+                        <Slider slides={Photos1} />
+                        </Grid>    
                     </Grid>                    
                 </div>
 
