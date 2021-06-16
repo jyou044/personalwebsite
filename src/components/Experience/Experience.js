@@ -35,7 +35,7 @@ export default function Experience() {
             <Grid item container>
                 <Grid item xs={12} md={12}></Grid>
                 <Grid item xs={12} md={12} className={classes.textFormat}>
-                <Typography variant="h2" align="center" className={classes.spacing} gutterBottom>My Journey into Tech</Typography>
+                <Typography variant="h2" align="center" className={classes.spacing} gutterBottom><b>My Journey into Tech</b></Typography>
 
                     </Grid>
                 </Grid>

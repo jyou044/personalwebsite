@@ -60,7 +60,7 @@ export default function About({ slides }) {
                     </Grid>
                     <Grid item xs={12} md={3} className={classes.paraFormat} style={{padding: 10}}>
                         <Typography variant="h5" align="center" className={classes.spacing} gutterBottom></Typography>
-                        <Typography variant="h2" align="center" gutterBottom>I'm Jason</Typography>
+                        <Typography variant="h2" align="center" gutterBottom><b>I'm Jason</b></Typography>
                         <Typography variant="h2" align="center" className={classes.spacing} gutterBottom> </Typography>
                         <p> <b>I'm a 3rd year software engineering student at the University of Ottawa.
                                 From a young age, I have been fascinated with the field of Information Technology and it's applications.  <br />As I made evident in my home page, I am an avid admirer of Steve Jobs and truly believe that simplicity is the ultimate sophistication!

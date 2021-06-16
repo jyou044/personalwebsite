@@ -40,7 +40,7 @@ export default function MyExperience() {
             <div>
                  <Grid item container>
                         <Grid item xs={12} className={classes.textFormat} style={{padding: 20}}>
-                        <Typography variant="h3" align="center" gutterBottom><b>Work Experience</b></Typography>
+                        <Typography variant="h2" align="center" gutterBottom><b>Work Experience</b></Typography>
                         </Grid>
                     </Grid>
                 <Grid item container>

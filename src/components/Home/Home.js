@@ -31,7 +31,7 @@ const useStyles = makeStyles((theme) => ({
             <div className="player-wrapper"> 
                 <Grid container>
                     <Grid item xs={12}>
-                        <Typography variant="h2" align="center" className={classes.textFormat} gutterBottom>Jason You</Typography>
+                        <Typography variant="h2" align="center" className={classes.textFormat} gutterBottom><b>Jason You</b></Typography>
                        
                     </Grid>
                 </Grid>
@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
                             <Image />                           
                         </Grid>
                     <Grid item xs={12} md={3} className={classes.paraFormat} style={{padding: 20}}>
-                            <h3 className={classes.textFormat}><i>"Simplicity is the ultimate sophistication" - Philosophy embraced by Steve Jobs and Apple</i></h3>
+                            <h3 className={classes.textFormat}><b><i>"Simplicity is the ultimate sophistication" - Philosophy embraced by Steve Jobs and Apple</i></b></h3>
                     </Grid>
                 </Grid>
                 <Grid container>
