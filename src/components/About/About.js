@@ -71,7 +71,7 @@ export default function About({ slides }) {
                     <Grid item container className={classes.imageSpace}>
                         <Grid item xs={12} md={4}>
                         </Grid> 
-                        <Grid item xs={12} md={4}>
+                        <Grid item xs={12} md={4} style={{marginLeft: 15,marginRight: 15}}>
                         <Slider slides={Photos1} />
                         </Grid>    
                     </Grid>                    
