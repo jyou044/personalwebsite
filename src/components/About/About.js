@@ -12,14 +12,18 @@ const useStyles = makeStyles((theme) => ({
   
     photoFormat: {
         textAlign: 'center',
-        marginBottom: '12rem',
-        padding: '2rem',
+        marginBottom: '5rem',
+        padding: '1rem',
     },
     classSpacing: {
         marginBottom: '1.5rem',
     },
     spacing: {
-        marginBottom: '4rem',
+        marginBottom: '1rem',
+    },
+    imageSpace: {
+        marginTop: '10rem',
+        marginBottom: '10rem',
     },
     paraFormat: {
         marginBottom: '1rem',
@@ -29,8 +33,6 @@ const useStyles = makeStyles((theme) => ({
     },
       meFormat: {
         textAlign: 'center',
-        marginBottom: '8rem',
-        marginTop: '1rem',
       },
     slides: {
         Photos1,
@@ -44,7 +46,7 @@ export default function About({ slides }) {
                 <Grid item container className={classes.classSpacing}>
 
                     <Grid item xs={12} md={3}></Grid>
-                    <Grid item xs={12} md={3} className={classes.paraFormat} style={{padding: 20, marginBottom: 10}}>
+                    <Grid item xs={12} md={3} className={classes.paraFormat} style={{marginBottom: 20}}>
                         <Typography variant="h5" align="center" className={classes.spacing} gutterBottom></Typography>
                         <Typography variant="h5" align="center" gutterBottom><b>My Profiles</b></Typography>
                         <SocialFollow />
@@ -56,7 +58,7 @@ export default function About({ slides }) {
                            
                         />
                     </Grid>
-                    <Grid item xs={12} md={3} className={classes.paraFormat} style={{padding: 20}}>
+                    <Grid item xs={12} md={3} className={classes.paraFormat} style={{padding: 10}}>
                         <Typography variant="h5" align="center" className={classes.spacing} gutterBottom></Typography>
                         <Typography variant="h2" align="center" gutterBottom>I'm Jason</Typography>
                         <Typography variant="h2" align="center" className={classes.spacing} gutterBottom> </Typography>
@@ -66,10 +68,10 @@ export default function About({ slides }) {
                             </b></p>
                     </Grid>
                     </Grid>
-                    <Grid item container className={classes.photoFormat}>
+                    <Grid item container className={classes.imageSpace}>
                         <Grid item xs={12} md={4}>
                         </Grid> 
-                        <Grid item xs={12} md={4}style={{padding: 20, marginTop: 20}}>
+                        <Grid item xs={12} md={4}>
                         <Slider slides={Photos1} />
                         </Grid>    
                     </Grid>                    
