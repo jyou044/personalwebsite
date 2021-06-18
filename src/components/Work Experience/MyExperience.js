@@ -39,10 +39,12 @@ export default function MyExperience() {
     return (     
             <div>
                  <Grid item container>
-                        <Grid item xs={12} className={classes.textFormat} style={{padding: 20}}>
-                        <Typography variant="h2" align="center" gutterBottom><b>Work Experience</b></Typography>
-                        </Grid>
+                <Grid item xs={12} md={12}></Grid>
+                <Grid item xs={12} md={12} className={classes.textFormat}>
+                <Typography variant="h2" align="center" className={classes.spacing} gutterBottom><b>My History</b></Typography>
+
                     </Grid>
+                </Grid>
                 <Grid item container>
                         <Grid item xs={12} lg={3}></Grid>
                         <Grid item xs={12} lg={3} className={classes.textFormat}  style={{padding: 20}}>
