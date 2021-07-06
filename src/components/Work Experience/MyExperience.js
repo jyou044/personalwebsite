@@ -48,6 +48,22 @@ export default function MyExperience() {
                 <Grid item container>
                         <Grid item xs={12} lg={3}></Grid>
                         <Grid item xs={12} lg={3} className={classes.textFormat}  style={{padding: 20}}>
+                        <Typography variant="h4" align="center" gutterBottom><b>Finastra</b></Typography>
+                        <Typography variant="h6" align="center" gutterBottom><b><i>Incoming Fall 2021</i></b></Typography>
+                        <img
+                            alt="finastra"
+                            height="100"
+                                src={`${process.env.PUBLIC_URL}/finastra.png`} 
+                            title="finastra" 
+                        />
+                        </Grid>
+                        <Grid item xs={12} lg={3} className={classes.paraFormat} style={{padding: 20}}>
+                            <p><b>I will be working as an Associate QA Automation Engineer Intern at Finastra starting in Fall 2021!</b></p>
+                        </Grid>
+                    </Grid>
+                <Grid item container>
+                        <Grid item xs={12} lg={3}></Grid>
+                        <Grid item xs={12} lg={3} className={classes.textFormat}  style={{padding: 20}}>
                         <Typography variant="h4" align="center" gutterBottom><b>Employment and Social Development Canada</b></Typography>
                         <Typography variant="h6" align="center" gutterBottom><b><i>May 2021 - August 2021</i></b></Typography>
                         <img
