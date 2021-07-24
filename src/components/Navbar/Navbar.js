@@ -14,27 +14,27 @@ class Navbar extends Component {
         this.setState({ clicked: !this.state.clicked })
     }
     render() {
-        return(
+        return (
             <Router>
-                <div className="spacing"> 
-                        <nav className="NavbarItems">
-                            <h1 className="navbar-logo">J Y</h1>
-                            <div className="menu-icon" onClick={this.handleClick}>
-                                <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
-                            </div>
-                            <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-                                {MenuItems.map((item, index) => {
-                                        return (
+                <div className="spacing">
+                    <nav className="NavbarItems">
+                        <h1 className="navbar-logo">J Y</h1>
+                        <div className="menu-icon" onClick={this.handleClick}>
+                            <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                        </div>
+                        <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                            {MenuItems.map((item, index) => {
+                                return (
 
-                                            <li key={index} >
-                                                    <NavLink to={item.url} className={item.cName} onClick={this.handleClick} >
-                                                        {item.title}
-                                                    </NavLink>
-                                            </li>
-                                        )
-                                    })}
-                            </ul>
-                        </nav>
+                                    <li key={index} >
+                                        <NavLink to={item.url} className={item.cName} onClick={this.handleClick} >
+                                            {item.title}
+                                        </NavLink>
+                                    </li>
+                                )
+                            })}
+                        </ul>
+                    </nav>
                     <Route path="/" exact component={Home} />
                     <Route path="/Home" exact component={Home} />
                     <Route path="/About" component={About} />
@@ -42,7 +42,7 @@ class Navbar extends Component {
                     <Route path="/MyExperience" component={WorkExperience} />
                 </div>
             </Router>
-           
+
         )
     }
 }

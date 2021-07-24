@@ -1,4 +1,6 @@
-
+/*
+* Code written by: Jason You 
+*/
 import React from 'react';
 import './App.css';
 import Layout from '../src/components/Layout'
@@ -7,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <Navbar />  
+        <Navbar />
       </Layout>
     </div>
   );

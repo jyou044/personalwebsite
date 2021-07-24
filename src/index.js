@@ -1,3 +1,6 @@
+/*
+* Code written by: Jason You 
+*/
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

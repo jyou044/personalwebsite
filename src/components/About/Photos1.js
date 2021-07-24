@@ -1,4 +1,6 @@
-
+/*
+* Code written by: Jason You 
+*/
 export const Photos1 = [
     {
         image: 'https://i.imgur.com/m4LUlfB.jpeg'
@@ -24,7 +26,7 @@ export const Photos1 = [
     {
         image: 'https://i.imgur.com/oOX4RuH.jpeg'
     },
-     {
+    {
         image: 'https://i.imgur.com/HLZoSI2.jpg'
     },
     {
@@ -36,7 +38,7 @@ export const Photos1 = [
     {
         image: 'https://i.imgur.com/hLNLRRv.jpg'
     },
-     {
+    {
         image: 'https://i.imgur.com/BeA8F3g.jpg'
     },
 ];

@@ -4,17 +4,17 @@ export const MenuItems = [
         title: 'Home',
         url: 'Home',
         cName: 'nav-links'
-    }, 
+    },
     {
         title: 'About',
-        url:'About',
+        url: 'About',
         cName: 'nav-links'
-    }, 
+    },
     {
         title: 'My Story',
-        url:'MyStory',
+        url: 'MyStory',
         cName: 'nav-links'
-    }, 
+    },
     {
         title: 'My Experience',
         url: 'MyExperience',
