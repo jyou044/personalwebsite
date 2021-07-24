@@ -9,12 +9,6 @@ import SocialFollow from '../About/SocialFollow';
 
 import Slider from './Slider';
 const useStyles = makeStyles((theme) => ({
-  
-    photoFormat: {
-        textAlign: 'center',
-        marginBottom: '5rem',
-        padding: '1rem',
-    },
     classSpacing: {
         marginBottom: '1.5rem',
     },

@@ -13,8 +13,6 @@ class Navbar extends Component {
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked })
     }
-    
-
     render() {
         return(
             <Router>

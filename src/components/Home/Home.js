@@ -16,10 +16,6 @@ const useStyles = makeStyles((theme) => ({
         lineHeight: 2.6,
         textAlign: 'center',
     },
-    videoFormat: {
-        marginBottom: '1rem',
-        textAlign: 'center',
-    },
     heightVal: {
        backgroundSize: 'cover',
     },
@@ -28,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
   export default function Home() {
         const classes = useStyles();
         return (
-            <div className="player-wrapper"> 
+            <div> 
                 <Grid container>
                     <Grid item xs={12}>
                         <Typography variant="h2" align="center" className={classes.textFormat} gutterBottom><b>Jason You</b></Typography>

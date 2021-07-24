@@ -19,10 +19,7 @@ const useStyles = makeStyles((theme) => ({
         lineHeight: 2.6,
         textAlign: 'center',
     },
-    heightVal: {
-        backgroundSize: 'cover',
-    },
-    videoFormat: {
+    pictureFormat: {
         marginBottom: '1rem',
         textAlign: 'center',
     },
@@ -39,7 +36,7 @@ export default function Experience() {
 
                     </Grid>
                 </Grid>
-            <Grid container className={classes.videoFormat}>
+            <Grid container className={classes.pictureFormat}>
                 <Grid item xs={12} md={4} className={classes.textFormat} style={{padding: 20}}>
                         <img
                     alt="iriver"
@@ -65,7 +62,7 @@ export default function Experience() {
                                             </b>
                                             </p>
                     </Grid>
-                        <Grid item xs={12} md={4} className={classes.videoFormat} style={{padding: 10}}>
+                        <Grid item xs={12} md={4} className={classes.pictureFormat} style={{padding: 10}}>
                         <img
                         alt="helloworld"
                         height="170"
@@ -74,7 +71,6 @@ export default function Experience() {
                     />
                     <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>The classic "Hello World" program was one of the first lines of code I wrote</i></Typography>
                     </Grid>
-                
                 </Grid>
             </div>
         );

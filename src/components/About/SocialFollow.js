@@ -42,7 +42,7 @@ export default function SocialFollow() {
             <Grid item xs={12} container
             direction="row"
             justify="center"
-            alignItems="center"><a href= {Pdf}  target="_blank" rel="noreferrer" className={classes.classSpacing}> <PictureAsPDF className={classes.pdfColor} style={{ fontSize: 50 }}/></a></Grid>
+            alignItems="center"><a href= {Pdf}  target="_blank" rel="noreferrer" className={classes.spacing}> <PictureAsPDF className={classes.pdfColor} style={{ fontSize: 50 }}/></a></Grid>
 
             
         </div>

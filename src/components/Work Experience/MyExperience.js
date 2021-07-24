@@ -10,9 +10,6 @@ const useStyles = makeStyles((theme) => ({
       lineHeight: 2.6,
       textAlign: 'center',
     },
-    centerFormat: {
-        textAlign: 'center',
-    },
     spacing: {
         marginBottom: '4rem',
     },
@@ -21,16 +18,6 @@ const useStyles = makeStyles((theme) => ({
         color: theme.palette.text.primary,
         lineHeight: 2.6,
         textAlign: 'center',
-    },
-    resumeColor: {
-        color: 'black',
-        textAlign: 'center',
-        marginBottom: '1rem',
-      },
-      pdfColor: {
-        color: 'red',
-        textAlign: 'center',
-        marginBottom: '1rem',
     },
   })); 
   
