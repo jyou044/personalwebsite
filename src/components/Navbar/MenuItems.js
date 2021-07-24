@@ -1,4 +1,6 @@
-
+/*
+Code written by Jason You
+*/
 export const MenuItems = [
     {
         title: 'Home',
