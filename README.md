@@ -1,3 +1,5 @@
+# Introduction
+This is my personal website. The code was written by me, inspired by youtuber Brian Design (https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
