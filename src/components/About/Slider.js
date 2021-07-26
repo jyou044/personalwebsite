@@ -29,7 +29,7 @@ const Slider = ({ slides }) => {
                         key={index}
                     >
                         {index === current && (<img src={slide.image} 
-                          alt="My Pictures" className='image'/>
+                          placeholder="blur" alt="My Pictures" className='image'/>
                         )}
                     </div>
                 )
