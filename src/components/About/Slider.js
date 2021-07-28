@@ -4,6 +4,8 @@
 import React, { useState } from 'react';
 import { Photos1 } from './Photos1';
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from 'react-icons/fa';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import './Slider.css';
 const Slider = ({ slides }) => {
     const [current, setCurrent] = useState(0)
@@ -23,13 +25,18 @@ const Slider = ({ slides }) => {
             <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
             {Photos1.map((slide, index) => {
                 return (
-                    
+
                     <div
                         className={index === current ? 'slide active' : 'slide'}
                         key={index}
                     >
-                        {index === current && (<img src={slide.image} 
-                          placeholder="blur" alt="My Pictures" className='image'/>
+                        {index === current && (
+                            <LazyLoadImage
+                                key={slide.index}
+                                alt="My Pictures"
+                                src={slide.image}
+                                className='image'
+                                effect="blur"/>
                         )}
                     </div>
                 )

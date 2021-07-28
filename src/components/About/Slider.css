@@ -70,7 +70,7 @@
 
   .slide.active {
     opacity: 1;
-    transition-duration: 4s;
+    transition-duration: 2s;
     transform: scale(1.05);
   }
 
