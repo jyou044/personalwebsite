@@ -34,7 +34,7 @@ const Slider = ({ slides }) => {
                             <LazyLoadImage
                                 key={slide.index}
                                 alt="My Pictures"
-                                src={slide.image}
+                                src= {slide.image} 
                                 className='image'
                                 effect="blur"/>
                         )}
