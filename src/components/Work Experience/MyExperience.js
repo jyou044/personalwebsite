@@ -68,7 +68,7 @@ export default function MyExperience() {
                     />
                 </Grid>
                 <Grid item xs={12} lg={3} className={classes.paraFormat} style={{ padding: 20 }}>
-                    <p><b>I am currently working as a Frontend Developer at Employment and Social Development Canada (ESDC). I am assisting in the development of a dynamic website for Canada's youth through the use of React JS and other
+                    <p><b>I am currently working as a Frontend Developer at Employment and Social Development Canada (ESDC). I am assisting in the development of a Government of Canada website through the use of React JS and other
                         relevant tools. I participate in daily standups and scrum meetings in an agile environment. </b></p>
                 </Grid>
             </Grid>
