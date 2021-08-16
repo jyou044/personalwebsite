@@ -6,7 +6,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
-import Pdf from '../../components/About/Resume_JasonYou.pdf';
+import Pdf from '../About/Jason You_Resume.pdf';
 import PictureAsPDF from '@material-ui/icons/PictureAsPdf';
 
 const useStyles = makeStyles((theme) => ({
