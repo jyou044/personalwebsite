@@ -40,7 +40,7 @@ export default function Experience() {
             </Grid>
 
             <Grid container className={classes.pictureFormat}>
-                <Grid item xs={12} md={4} className={classes.textFormat} style={{ padding: 20 }}>
+                <Grid item xs={12} md={4} className={classes.pictureFormat} style={{ padding: 20 }}>
                     <img
                         alt="iriver"
                         height="200"
@@ -63,10 +63,11 @@ export default function Experience() {
                     </b>
                     </p>
                 </Grid>
-                <Grid item xs={12} md={4} className={classes.pictureFormat} style={{ padding: 10 }}>
+                <Grid item xs={12} md={4} className={classes.pictureFormat} style={{ padding: 20 }}>
                     <img
                         alt="helloworld"
-                        height="170"
+                        height="200"
+                        width="266"
                         src={`${process.env.PUBLIC_URL}/source/helloworld.png`}
                         title="Hello World"
                     />

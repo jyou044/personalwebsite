@@ -1,7 +1,7 @@
 /*
 Code written by Jason You
 */
-import React, { Component } from 'react';
+import React, { Component} from 'react';
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import { MenuItems } from '../Navbar/MenuItems'
 import About from '../About/About'
@@ -11,15 +11,15 @@ import Home from '../Home/Home'
 import './Navbar.css'
 
 class Navbar extends Component {
-
     state = { clicked: false }
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked })
     }
+    
     render() {
         return (
             <Router>
-                <div className="spacing">
+                <div className="spacing"> 
                     <nav className="NavbarItems">
                         <h1 className="navbar-logo">J Y</h1>
                         <div className="menu-icon" onClick={this.handleClick}>
@@ -28,7 +28,6 @@ class Navbar extends Component {
                         <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                             {MenuItems.map((item, index) => {
                                 return (
-
                                     <li key={index} >
                                         <NavLink to={item.url} className={item.cName} onClick={this.handleClick} >
                                             {item.title}

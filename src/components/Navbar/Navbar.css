@@ -3,7 +3,6 @@ Code written by Jason You
 */
 .NavbarItems {
     color: black;
-    background: linear-gradinet(90deg, rgb(73, 63, 252, 1) 0%, rgba(73, 63, 252, 1) 100%);
     height: 100px;
     display: flex;
     justify-content: center;
@@ -15,14 +14,13 @@ Code written by Jason You
     color: black;
     justify-self: start;
     margin-left: 40px;
-    cursor: pointer;
 }
 .click:hover {
     transform: scale(0.6);
     transition-duration: 0.5s;
 }
 
-/* Change the color of links on hover */
+/* Change the size of links on hover */
 .navbar-hover {
     background-color: rgba(221, 221, 221, 0.616);
     color: black;
@@ -34,7 +32,7 @@ Code written by Jason You
 }
 
 .spacing {
-    margin-Bottom: 3rem,
+    margin-Bottom: 3rem;
 }
 
 
@@ -83,7 +81,7 @@ Code written by Jason You
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 420px;
+        height: auto;
         position: absolute;
         top: 100px;
         left: -100%;
@@ -97,10 +95,6 @@ Code written by Jason You
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
-    }
-
-    .nav-menu.inactive {
-        display: none;
     }
 
     .nav-links {

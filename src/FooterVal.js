@@ -8,7 +8,6 @@ import SocialFollow from '../src/components/About/SocialFollow';
 class FooterVal extends Component {
   state = {
     currentDateTime: new Date().getFullYear()
-
   }
   render() {
     return (
@@ -16,10 +15,9 @@ class FooterVal extends Component {
         <Paper elevation={3}>
           {this.props.children}
           <h2 className="white-text"><center>©  {this.state.currentDateTime} Jason You</center></h2>
-          <h2 className="grey-text text-lighten-4"><center> V 1.2</center></h2>
+          <h2 className="grey-text text-lighten-4"><center> V 1.3</center></h2>
           <SocialFollow />
         </Paper>
-
       </div>
     );
   }
