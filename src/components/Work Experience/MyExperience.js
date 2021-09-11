@@ -46,7 +46,7 @@ export default function MyExperience() {
             <Grid item container className={classes.flexVal}>
                 <Grid item xs={12} lg={3} className={classes.textFormat} style={{ padding: 20 }}>
                     <Typography variant="h4" align="center" gutterBottom><b>Finastra</b></Typography>
-                    <Typography variant="h6" align="center" gutterBottom><b><i>Incoming Fall 2021</i></b></Typography>
+                    <Typography variant="h6" align="center" gutterBottom><b><i>September 2021 - Present</i></b></Typography>
                     <img
                         alt="finastra"
                         height="100"
@@ -55,7 +55,7 @@ export default function MyExperience() {
                     />
                 </Grid>
                 <Grid item xs={12} lg={3} className={classes.paraFormat} style={{ padding: 20 }}>
-                    <p><b>I will be working as an Associate QA Automation Engineer Intern at Finastra starting in Fall 2021!</b></p>
+                    <p><b>I am currently working as an Associate QA Automation Engineer Intern at Finastra.</b></p>
                 </Grid>
             </Grid>
 
