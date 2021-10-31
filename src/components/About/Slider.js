@@ -32,7 +32,6 @@ const Slider = ({ slides }) => {
                     >
                         {index === current && (
                             <LazyLoadImage
-                                key={slide.index}
                                 alt="My Pictures"
                                 src= {slide.image} 
                                 className='image'
