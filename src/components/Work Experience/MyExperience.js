@@ -6,6 +6,7 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { FaExternalLinkSquareAlt } from 'react-icons/fa';
 import './MyExperience.css';
 const useStyles = makeStyles((theme) => ({
     textFormat: {
@@ -55,7 +56,7 @@ export default function MyExperience() {
                     />
                 </Grid>
                 <Grid item xs={12} lg={3} className={classes.paraFormat} style={{ padding: 20 }}>
-                    <p><b>I am currently working as an Associate QA Automation Engineer Intern at Finastra. I write automated tests
+                    <p><b>I am currently working as an Associate QA Automation Engineer Intern at <a href="https://www.finastra.com/" style={{color: "#000000"}} target="_blank" rel="noreferrer">Finastra</a><FaExternalLinkSquareAlt></FaExternalLinkSquareAlt>. I write automated tests
                         through the use of the .NET Framework, SQL, Selenium, and the C# programming language. Additionally, I am assisting in manual
                         API & Feature testing through Postman and other relevant technologies. I also maintain
                          the Grafana web application for my team by running a powershell script to gather data on the status of
@@ -77,7 +78,7 @@ export default function MyExperience() {
                 <Grid item xs={12} lg={3} className={classes.paraFormat} style={{ padding: 20 }}>
                     <p><b>During the summer 2021 term, I worked at Employment and Social Development Canada (ESDC) as a 
                         Frontend Developer. I used React JS and other relevant web tools in addition to participating in daily scrum meetings. 
-                        I was a contributing member of the <a href="https://www.youth.service.canada.ca/en" style={{color: "#000000"}} target="_blank" rel="noreferrer" >Youth Digital Gateway</a> project, an outreach intiative by the government to better fulfill the needs of young Canadians.</b></p>
+                        I was a contributing member of the <a href="https://www.youth.service.canada.ca/en" style={{color: "#000000"}} target="_blank" rel="noreferrer" >Youth Digital Gateway</a><FaExternalLinkSquareAlt></FaExternalLinkSquareAlt> project, an outreach intiative by the government to better fulfill the needs of young Canadians.</b></p>
                 </Grid>
             </Grid>
 
