@@ -10,6 +10,10 @@ This is my personal website. The code was written by me, inspired by youtuber Br
 ### Version 1.3
 - Updated description of my Experience in addition to fixing several aesthetic features and formatting 
 - Fixed the page title to better reflect the website's purpose 
+  #### Version 1.3.1 
+  - Added Date Modified component in footer
+  - Modified footer to contain date modified and version under the icons for better visibility
+  - Updated title of My Story page to better reflect page 
 ### Future Versions
 - Updating the navbar in mobile view so users can close it by clicking anywhere on the screen outside of the navbar
 - Adding more improved features to increase UX
