@@ -14,6 +14,7 @@ This is my personal website. The code was written by me, inspired by youtuber Br
   - Added Date Modified component in footer
   - Modified footer to contain date modified and version under the icons for better visibility
   - Updated title of My Story page to better reflect page 
+  - Added popup link icons next to links
 ### Future Versions
 - Updating the navbar in mobile view so users can close it by clicking anywhere on the screen outside of the navbar
 - Adding more improved features to increase UX
