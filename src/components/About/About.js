@@ -52,7 +52,7 @@ export default function About({ slides }) {
                     <img className={classes.meFormat}
                         alt="Jason You"
                         height="300"
-                        src={`${process.env.PUBLIC_URL}/source/jasonyouprofile.jpg.jpg`}
+                        src={`${process.env.PUBLIC_URL}/source/jasonyouprofile.jpg`}
                         title="It's me!"
                     />
                 </Grid>

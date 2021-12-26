@@ -54,7 +54,7 @@ export default function Experience() {
                         src={`${process.env.PUBLIC_URL}/source/iriver.jpg`}
                         title="iriver"
                     />
-                    <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>An iRiver MP3, one of the first electronic devices I used</i></Typography>
+                    <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>Shown above is an iRiver MP3, one of the first electronic devices I used</i></Typography>
                 </Grid>
                 <Grid item xs className={classes.paraFormat} style={{ padding: 20 }}>
                     <p> <b>
