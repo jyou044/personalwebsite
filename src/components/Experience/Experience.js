@@ -16,6 +16,8 @@ const useStyles = makeStyles((theme) => ({
     },
     spacing: {
         marginBottom: '1rem',
+        marginLeft: '1rem',
+        marginRight: '1rem',
     },
     paraFormat: {
         marginBottom: '1rem',
@@ -24,8 +26,13 @@ const useStyles = makeStyles((theme) => ({
         textAlign: 'center',
     },
     pictureFormat: {
+        paddingLeft: 10,
+        paddingRight: 10,
         marginBottom: '1rem',
-        textAlign: 'center',
+        marginLeft: '1rem',
+        marginRight: '1rem',
+        alignItems: 'center',
+        justifyContent: 'center',
     },
 }));
 
@@ -35,12 +42,12 @@ export default function Experience() {
         <div>
             <Grid item container>
                 <Grid item xs={12} md={12} className={classes.textFormat}>
-                    <Typography variant="h2" align="center" className={classes.spacing} gutterBottom><b>My Journey into Tech</b></Typography>
+                    <Typography variant="h2" align="center" className={classes.spacing} gutterBottom><b>My Story</b></Typography>
                 </Grid>
             </Grid>
 
-            <Grid container className={classes.pictureFormat}>
-                <Grid item xs={12} md={4} className={classes.pictureFormat} style={{ padding: 20 }}>
+            <Grid container justify = "center">
+                <Grid item alignContent='flex-start' alignItems='flex-start' justify='flex-start' container xs className={classes.pictureFormat}> 
                     <img
                         alt="iriver"
                         height="200"
@@ -49,7 +56,7 @@ export default function Experience() {
                     />
                     <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>An iRiver MP3, one of the first electronic devices I used</i></Typography>
                 </Grid>
-                <Grid item xs={12} md={4} className={classes.paraFormat} style={{ padding: 20 }}>
+                <Grid item xs className={classes.paraFormat} style={{ padding: 20 }}>
                     <p> <b>
                         Technology has always been of the utmost interest to me. Ever since an early age, I was exposed to a variety of gadgets ranging from MP3 Players to iPods, primarily
                         because of my dad's involvement in the field.
@@ -63,15 +70,14 @@ export default function Experience() {
                     </b>
                     </p>
                 </Grid>
-                <Grid item xs={12} md={4} className={classes.pictureFormat} style={{ padding: 20 }}>
+                <Grid item alignContent='flex-start' alignItems='flex-start' justify='flex-start' container xs className={classes.pictureFormat}>
                     <img
                         alt="helloworld"
                         height="200"
-                        width="266"
                         src={`${process.env.PUBLIC_URL}/source/helloworld.png`}
                         title="Hello World"
                     />
-                    <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>The classic "Hello World" program was one of the first lines of code I wrote</i></Typography>
+                    <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>The "Hello World" program was one of the first lines of code I wrote</i></Typography>
                 </Grid>
             </Grid>
         </div>

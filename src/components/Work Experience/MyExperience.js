@@ -55,7 +55,11 @@ export default function MyExperience() {
                     />
                 </Grid>
                 <Grid item xs={12} lg={3} className={classes.paraFormat} style={{ padding: 20 }}>
-                    <p><b>I am currently working as an Associate QA Automation Engineer Intern at Finastra.</b></p>
+                    <p><b>I am currently working as an Associate QA Automation Engineer Intern at Finastra. I write automated tests
+                        through the use of the .NET Framework, SQL, Selenium, and the C# programming language. Additionally, I am assisting in manual
+                        API & Feature testing through Postman and other relevant technologies. I also maintain
+                         the Grafana web application for my team by running a powershell script to gather data on the status of
+                        automated tests.</b></p>
                 </Grid>
             </Grid>
 
