@@ -18,4 +18,4 @@ This is my personal website. The code was written by me, inspired by youtuber Br
 ### Version 1.4
 - Added feature of being able to close navbar menu with click outside in mobile view
 ### Future Versions
-- Adding more improved features to increase UX
+- Adding more improved features to enhance UX
