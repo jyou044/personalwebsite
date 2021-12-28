@@ -46,25 +46,25 @@ export default function Experience() {
     return (
         <div>
             <Grid item container>
-                <Grid item xs={12} md={12} className={classes.textFormat}>
+                <Grid item xs={12} className={classes.textFormat}>
                     <Typography variant="h2" align="center" className={classes.spacing} gutterBottom><b>My Story</b></Typography>
                 </Grid>
             </Grid>
 
             <Grid container justify = "center">
-                <Grid item alignContent='flex-start' alignItems='flex-start' justify='flex-start' container xs className={classes.pictureFormat}> 
+                <Grid item alignContent='flex-start' alignItems='flex-start' justify='flex-start' container lg className={classes.pictureFormat}> 
                     <img
                         alt="iriver"
                         height="300"
                         src={`${process.env.PUBLIC_URL}/source/iriver.jpg`}
                         title="iriver"
                     />
-                    <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>Shown above is an iRiver MP3, one of the first electronic devices I used</i></Typography>
+                    <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>Shown in the picture is an iRiver MP3, one of the first electronic devices I used</i></Typography>
                 </Grid>
-                <Grid item xs className={classes.paraFormat} style={{ padding: 20 }}>
+                <Grid item alignContent='flex-start' alignItems='flex-start' justify='flex-start' container lg className={classes.paraFormat} style={{ padding: 20 }}>
                     <p> <b>
                         Technology has always been of the utmost interest to me. Ever since an early age, I was exposed to a variety of gadgets ranging from MP3 Players to iPods, primarily
-                        because of my dad's involvement in the field.
+                        because of my family's involvement in the field.
                         I still remember the first time I wrote a computer program when I was 11 years old.
                         <br />
                         Since the end of my first year in university, I have had the privilege of completing several tech internships with various departments within the Government of Canada. From
@@ -75,7 +75,7 @@ export default function Experience() {
                     </b>
                     </p>
                 </Grid>
-                <Grid item alignContent='flex-start' alignItems='flex-start' justify='flex-start' container xs className={classes.pictureFormat}>
+                <Grid item alignContent='flex-start' alignItems='flex-start' justify='flex-start' container lg className={classes.pictureFormat}>
                     <img
                         alt="helloworld"
                         height="200"
