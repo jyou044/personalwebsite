@@ -96,6 +96,7 @@ export default function Experience() {
                                 width="100%"
                                 height="500"
                                 controls={true}
+                                config={{ youtube: { playerVars: { origin: 'https://www.youtube.com' } } }}
                                 />
                         <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>Above is a demonstration of a maze game I developed in high school, one of the first major projects I worked on.</i></Typography>
                 </Grid>
