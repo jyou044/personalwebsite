@@ -5,6 +5,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+import ReactPlayer from 'react-player'
 import './Experience.css';
 
 const useStyles = makeStyles((theme) => ({
@@ -34,6 +35,10 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         justifyContent: 'center',
     },
+    videoFormat: {
+        marginBottom: '1rem',
+        textAlign: 'center',
+    },
 }));
 
 export default function Experience() {
@@ -50,7 +55,7 @@ export default function Experience() {
                 <Grid item alignContent='flex-start' alignItems='flex-start' justify='flex-start' container xs className={classes.pictureFormat}> 
                     <img
                         alt="iriver"
-                        height="200"
+                        height="300"
                         src={`${process.env.PUBLIC_URL}/source/iriver.jpg`}
                         title="iriver"
                     />
@@ -78,6 +83,21 @@ export default function Experience() {
                         title="Hello World"
                     />
                     <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>The "Hello World" program was one of the first lines of code I wrote</i></Typography>
+                </Grid>
+            </Grid>
+            <Grid container justify="center" stype={{paddingBottom: 10}}>
+                <Grid item className={classes.pictureFormat}>
+                    <ReactPlayer  
+                        alt="Maze Game"
+                        url="https://www.youtube.com/watch?v=jm5wbTU3lYk&ab_channel=bagelboi360"
+                        className="react-player"
+                                playing={false}
+                                muted={true}
+                                width="100%"
+                                height="500"
+                                controls={true}
+                                />
+                        <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>Above is a demonstration of a maze game I developed in high school, one of the first major projects I worked on.</i></Typography>
                 </Grid>
             </Grid>
         </div>

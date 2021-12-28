@@ -1,12 +1,22 @@
 /*
 * Code written by: Jason You 
 */
-.Experience {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-  }
+.player-wrapper {
+  width: auto; 
+  height: auto; 
+}
+.react-player {
+  padding-top: 56.25%; 
+  position: relative;
+}
+
+.react-player > div {
+  position: absolute; 
+  top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+} 
   @media screen and (max-width: 900px) {
     .Experience {
         position: relative;

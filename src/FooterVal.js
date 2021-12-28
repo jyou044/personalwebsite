@@ -14,10 +14,9 @@ class FooterVal extends Component {
       <div>
         <Paper elevation={3}>
           {this.props.children}
-          <h2 className="white-text"><center>© {this.state.currentDateTime} Jason You</center></h2>
-          <SocialFollow />
-          <h3 className="white-text"><center>Date Modified: 12-26-2021</center></h3>
           <h3 className="grey-text text-lighten-4"><center> V 1.4</center></h3>
+          <h3 className="white-text"><center>© {this.state.currentDateTime} Jason You</center></h3>
+          <SocialFollow />
         </Paper>
       </div>
     );
