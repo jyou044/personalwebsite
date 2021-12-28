@@ -11,7 +11,7 @@ This is my personal website. The code was written by me, inspired by youtuber Br
 - Updated description of my Experience in addition to fixing several aesthetic features and formatting 
 - Fixed the page title to better reflect the website's purpose 
   #### Version 1.3.1 
-  - Modified footer to contain date modified and version under the icons for better visibility
+  - Reordered footer items for better visibility
   - Updated title of My Story page to better reflect page 
   - Added popup link icons next to links
 ### Version 1.4
