@@ -16,5 +16,7 @@ This is my personal website. The code was written by me, inspired by youtuber Br
   - Added popup link icons next to links
 ### Version 1.4
 - Added feature of being able to close navbar menu with click outside in mobile view
+### Version 1.5
+- Added redirect feature so any incorrect url will lead back to the home page
 ### Future Versions
 - Adding more improved features to enhance UX
