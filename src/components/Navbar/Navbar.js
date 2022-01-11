@@ -2,7 +2,7 @@
 Code written by Jason You
 */
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Route, NavLink, Redirect } from "react-router-dom";
 import { MenuItems } from '../Navbar/MenuItems'
 import About from '../About/About'
 import Experience from '../Experience/Experience'
@@ -47,6 +47,11 @@ class Navbar extends Component {
                     <Route path="/About" component={About} />
                     <Route path="/MyStory" component={Experience} />
                     <Route path="/MyExperience" component={WorkExperience} />
+                    <Route path='*' render={() => 
+                        (
+                        <Redirect to="/Home"/>
+                        )
+                    }/>
                 </div>
             </Router>
 
