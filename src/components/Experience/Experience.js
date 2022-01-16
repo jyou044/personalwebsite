@@ -51,8 +51,8 @@ export default function Experience() {
                 </Grid>
             </Grid>
 
-            <Grid container justify = "center">
-                <Grid item alignContent='flex-start' alignItems='flex-start' justify='flex-start' container lg className={classes.pictureFormat}> 
+            <Grid container justifyContent = "center">
+                <Grid item alignContent='flex-start' alignItems='flex-start' justifyContent ='flex-start' container lg className={classes.pictureFormat}> 
                     <img
                         alt="iriver"
                         height="300"
@@ -61,7 +61,7 @@ export default function Experience() {
                     />
                     <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>Shown in the picture is an iRiver MP3, one of the first electronic devices I used</i></Typography>
                 </Grid>
-                <Grid item alignContent='flex-start' alignItems='flex-start' justify='flex-start' container lg className={classes.paraFormat} style={{ padding: 20 }}>
+                <Grid item alignContent='flex-start' alignItems='flex-start' justifyContent ='flex-start' container lg className={classes.paraFormat} style={{ padding: 20 }}>
                     <p> <b>
                         Technology has always been of the utmost interest to me. Ever since an early age, I was exposed to a variety of gadgets ranging from MP3 Players to iPods, primarily
                         because of my family's involvement in the field.
@@ -75,7 +75,7 @@ export default function Experience() {
                     </b>
                     </p>
                 </Grid>
-                <Grid item alignContent='flex-start' alignItems='flex-start' justify='flex-start' container lg className={classes.pictureFormat}>
+                <Grid item alignContent='flex-start' alignItems='flex-start' justifyContent ='flex-start' container lg className={classes.pictureFormat}>
                     <img
                         alt="helloworld"
                         height="200"
@@ -85,7 +85,7 @@ export default function Experience() {
                     <Typography paragraph align="center" className={classes.spacing} gutterBottom><i>The "Hello World" program was one of the first lines of code I wrote</i></Typography>
                 </Grid>
             </Grid>
-            <Grid container justify="center" stype={{paddingBottom: 10}}>
+            <Grid container justifyContent ="center" stype={{paddingBottom: 10}}>
                 <Grid item className={classes.pictureFormat}>
                     <ReactPlayer  
                         alt="Maze Game"
