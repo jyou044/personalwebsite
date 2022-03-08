@@ -2,12 +2,13 @@
 Code written by Jason You
 */
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Route, NavLink, Switch, Redirect } from "react-router-dom";
 import { MenuItems } from '../Navbar/MenuItems'
 import About from '../About/About'
 import Experience from '../Experience/Experience'
 import WorkExperience from '../Work Experience/MyExperience';
 import Home from '../Home/Home' 
+import NotFound from '../../NotFound';
 import './Navbar.css'
 import OutsideClickHandler from 'react-outside-click-handler';
 class Navbar extends Component {
@@ -42,11 +43,16 @@ class Navbar extends Component {
                             </ul>
                         </nav> 
                     </OutsideClickHandler>
-                    <Route path="/" exact component={Home} />
-                    <Route path="/Home" exact component={Home} />
-                    <Route path="/About" component={About} />
-                    <Route path="/MyStory" component={Experience} />
-                    <Route path="/MyExperience" component={WorkExperience} />
+                    <Switch>
+                        <Route path="/" exact component={Home} />
+                        <Route path="/Home" exact component={Home} />
+                        <Route path="/About" component={About} />
+                        <Route path="/MyStory" component={Experience} />
+                        <Route path="/MyExperience" component={WorkExperience} />
+                        <Route path="/NotFound" component={NotFound} />
+                        <Redirect from='*' to='/NotFound' />
+                    </Switch>
+                    
                 </div>
             </Router>
 

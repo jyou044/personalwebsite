@@ -46,6 +46,22 @@ export default function MyExperience() {
 
             <Grid item container className={classes.flexVal}>
                 <Grid item xs={12} lg={3} className={classes.textFormat} style={{ padding: 20 }}>
+                    <Typography variant="h4" align="center" gutterBottom><b>BlackBerry</b></Typography>
+                    <Typography variant="h6" align="center" gutterBottom><b><i>Incoming Summer 2022</i></b></Typography>
+                    <img
+                        alt="blackberry logo"
+                        height="100"
+                        src={`${process.env.PUBLIC_URL}/source/blackberry.png`}
+                        title="blackberry logo"
+                    />
+                </Grid>
+                <Grid item xs={12} lg={3} className={classes.paraFormat} style={{ padding: 20 }}>
+                    <p><b>I will be working at <a href="https://www.blackberry.com/us/en" style={{color: "#000000"}} target="_blank" rel="noreferrer">BlackBerry</a><FaExternalLinkSquareAlt></FaExternalLinkSquareAlt> as a Software Automation Development Student starting in Summer 2022!</b></p>
+                </Grid>
+            </Grid>
+
+            <Grid item container className={classes.flexVal}>
+                <Grid item xs={12} lg={3} className={classes.textFormat} style={{ padding: 20 }}>
                     <Typography variant="h4" align="center" gutterBottom><b>Finastra</b></Typography>
                     <Typography variant="h6" align="center" gutterBottom><b><i>September 2021 - Present</i></b></Typography>
                     <img
