@@ -18,5 +18,7 @@ This is my personal website. The code was written by me, inspired by youtuber Br
 - Added feature of being able to close navbar menu with click outside in mobile view
 ### Version 1.5
 - Improved UI of website
+### Version 1.6
+- Implemented redirect of incorrect url to 404 Not found page
 ### Future Versions
 - Adding more improved features to enhance UX
