@@ -63,7 +63,7 @@ export default function MyExperience() {
             <Grid item container className={classes.flexVal}>
                 <Grid item xs={12} lg={3} className={classes.textFormat} style={{ padding: 20 }}>
                     <Typography variant="h4" align="center" gutterBottom><b>Finastra</b></Typography>
-                    <Typography variant="h6" align="center" gutterBottom><b><i>September 2021 - Present</i></b></Typography>
+                    <Typography variant="h6" align="center" gutterBottom><b><i>September 2021 - April 2022</i></b></Typography>
                     <img
                         alt="finastra"
                         height="100"
