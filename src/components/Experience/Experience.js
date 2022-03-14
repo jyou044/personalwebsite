@@ -22,6 +22,8 @@ const useStyles = makeStyles((theme) => ({
     },
     paraFormat: {
         marginBottom: '1rem',
+        paddingLeft: 10,
+        paddingRight: 10,
         color: theme.palette.text.primary,
         lineHeight: 2.6,
         textAlign: 'center',
@@ -66,10 +68,10 @@ export default function Experience() {
                         Technology has always been of the utmost interest to me. Ever since an early age, I was exposed to a variety of gadgets ranging from MP3 Players to iPods, primarily
                         because of my family's involvement in the field.
                         I still remember the first time I wrote a computer program when I was 11 years old.
-                        <br />
+                        <br /> <br />
                         Since the end of my first year in university, I have had the privilege of completing several tech internships with various departments within the Government of Canada. From
                         web development to client support, it's safe to say that I've garnered a holistic view of the world of tech in my 2 years of professional experience.
-                        <br />
+                        <br /> <br />
                         I am always striving to challenge myself and am open to internship opportunities in both the private and public sectors. If the opportunity arises,
                         I am readily available!
                     </b>

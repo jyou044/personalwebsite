@@ -56,7 +56,7 @@ export default function About({ slides }) {
                         title="It's me!"
                     />
                 </Grid>
-                <Grid item xs={12} md={3} className={classes.paraFormat} style={{ paddingleft: 10, paddingRight: 10 }}>
+                <Grid item xs={12} md={3} className={classes.paraFormat} style={{ marginLeft: 10, marginRight: 10 }}>
                     <Typography variant="h2" align="center" gutterBottom><b>I'm Jason</b></Typography>
                     <p> <b>I'm a software engineering student at the University of Ottawa.
                         From a young age, I have been fascinated with the field of Information Technology and it's applications. <br /> <br />As I made evident in my home page, I am an avid admirer of Steve Jobs and truly believe that simplicity is the ultimate sophistication!
