@@ -22,5 +22,6 @@ This is my personal website. The code was written by me, inspired by youtuber Br
 - Implemented redirect of incorrect url to 404 Not found page
   #### Version 1.6.1
   - Updated font family to one that displays the same behaviour in Google Chrome, Opera, and Mozilla Firefox
+  - Updated url for resume pdf from default to custom
 ### Future Versions
 - Adding more improved features to enhance UX
