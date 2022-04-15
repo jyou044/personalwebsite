@@ -46,7 +46,7 @@ export default function SocialFollow() {
       <Grid item xs={12} container
         direction="row"
         justifyContent="center"
-        alignItems="center"><a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noreferrer" className={classes.spacing}> <PictureAsPDF className={classes.pdfColor} style={{ fontSize: 50 }} /></a></Grid>
+        alignItems="center"><a href={`${process.env.PUBLIC_URL}/Jason_You_Resume.pdf`} target="_blank" rel="noreferrer" className={classes.spacing}> <PictureAsPDF className={classes.pdfColor} style={{ fontSize: 50 }} /></a></Grid>
     </div>
   );
 }
