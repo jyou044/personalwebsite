@@ -6,7 +6,6 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
-import Pdf from '../About/JASON YOU Resume.pdf';
 import PictureAsPDF from '@material-ui/icons/PictureAsPdf';
 
 const useStyles = makeStyles((theme) => ({
@@ -47,7 +46,7 @@ export default function SocialFollow() {
       <Grid item xs={12} container
         direction="row"
         justifyContent="center"
-        alignItems="center"><a href={Pdf} target="_blank" rel="noreferrer" className={classes.spacing}> <PictureAsPDF className={classes.pdfColor} style={{ fontSize: 50 }} /></a></Grid>
+        alignItems="center"><a href={`${process.env.PUBLIC_URL}/Resume.pdf`} target="_blank" rel="noreferrer" className={classes.spacing}> <PictureAsPDF className={classes.pdfColor} style={{ fontSize: 50 }} /></a></Grid>
     </div>
   );
 }
