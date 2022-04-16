@@ -3,42 +3,42 @@
 */
 export const Photos1 = [
     {
-        image: 'https://i.imgur.com/VQfyVUs.jpeg'
+        image: `${process.env.PUBLIC_URL}/source/photo1.JPG`
     },
     {
-        image: 'https://i.imgur.com/0y0MfO2.jpeg'
+        image: `${process.env.PUBLIC_URL}/source/photo2.JPG`
     },
     {
-        image: 'https://i.imgur.com/mFL1sOw.jpeg'
+        image: `${process.env.PUBLIC_URL}/source/photo3.JPG`
     },
     {
-        image: 'https://i.imgur.com/WG77gCD.jpeg'
+        image: `${process.env.PUBLIC_URL}/source/photo4.JPG`
     },
     {
-        image: 'https://i.imgur.com/qqc6l32.jpeg'
+        image: `${process.env.PUBLIC_URL}/source/photo5.JPG`
     },
     {
-        image: 'https://i.imgur.com/w025qO7.jpeg'
+        image: `${process.env.PUBLIC_URL}/source/photo6.JPG`
     },
     {
-        image: 'https://i.imgur.com/IDAWkz8.jpeg'
+        image: `${process.env.PUBLIC_URL}/source/photo7.JPG`
     },
     {
-        image: 'https://i.imgur.com/ll2SQtQ.jpeg'
+        image: `${process.env.PUBLIC_URL}/source/photo8.JPG`
     },
     {
-        image: 'https://i.imgur.com/or3N7wD.jpeg'
+        image: `${process.env.PUBLIC_URL}/source/photo9.JPG`
     },
     {
-        image: 'https://i.imgur.com/QTkAjWf.jpeg'
+        image: `${process.env.PUBLIC_URL}/source/photo10.JPG`
     },
     {
-        image: 'https://i.imgur.com/5DWnoEa.jpeg'
+        image: `${process.env.PUBLIC_URL}/source/photo11.JPG`
     },
     {
-        image: 'https://i.imgur.com/Xh2eizp.jpeg'
+        image: `${process.env.PUBLIC_URL}/source/photo12.JPG`
     },
     {
-        image: 'https://i.imgur.com/990ieJ6.jpeg'
+        image: `${process.env.PUBLIC_URL}/source/photo13.JPG`
     },
 ];
