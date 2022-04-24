@@ -32,8 +32,8 @@ export default function SocialFollow() {
         direction="row"
         justifyContent="center"
         alignItems="center">
-        <a href="https://github.com/jyou044" target="_blank" rel="noreferrer"><GitHubIcon className={classes.gitIcon} style={{ fontSize: 50 }} /></a>
-        <a href="https://linkedin.com/in/jyou044" target="_blank" rel="noreferrer"> <LinkedInIcon className={classes.linkedInColor} style={{ fontSize: 50 }} /></a>
+        <a href="https://github.com/jyou044" target="_blank" rel="noreferrer"><GitHubIcon className={classes.gitIcon} style={{ fontSize: 50 }} alt="github icon"/></a>
+        <a href="https://linkedin.com/in/jyou044" target="_blank" rel="noreferrer"> <LinkedInIcon className={classes.linkedInColor} style={{ fontSize: 50 }} alt="linkedin icon"/></a>
       </Grid>
 
       <Grid item xs={12} container
@@ -46,7 +46,7 @@ export default function SocialFollow() {
       <Grid item xs={12} container
         direction="row"
         justifyContent="center"
-        alignItems="center"><a href={`${process.env.PUBLIC_URL}/Jason_You_Resume.pdf`} target="_blank" rel="noreferrer" className={classes.spacing}> <PictureAsPDF className={classes.pdfColor} style={{ fontSize: 50 }} /></a></Grid>
+        alignItems="center"><a href={`${process.env.PUBLIC_URL}/Jason_You_Resume.pdf`} target="_blank" rel="noreferrer" className={classes.spacing}> <PictureAsPDF className={classes.pdfColor} style={{ fontSize: 50 }} alt="pdf resume icon"/></a></Grid>
     </div>
   );
 }
