@@ -47,7 +47,7 @@ export default function MyExperience() {
             <Grid item container className={classes.flexVal}>
                 <Grid item xs={12} lg={3} className={classes.textFormat} style={{ padding: 20 }}>
                     <Typography variant="h4" align="center" gutterBottom><b>BlackBerry</b></Typography>
-                    <Typography variant="h6" align="center" gutterBottom><b><i>Incoming Summer 2022</i></b></Typography>
+                    <Typography variant="h6" align="center" gutterBottom><b><i>May 2022 - Present</i></b></Typography>
                     <img
                         alt="blackberry logo"
                         height="100"
@@ -56,7 +56,7 @@ export default function MyExperience() {
                     />
                 </Grid>
                 <Grid item xs={12} lg={3} className={classes.paraFormat} style={{ padding: 20 }}>
-                    <p><b>I will be working at <a href="https://www.blackberry.com/us/en" style={{color: "#000000"}} target="_blank" rel="noreferrer">BlackBerry</a><FaExternalLinkSquareAlt></FaExternalLinkSquareAlt> as a Software Automation Development Student starting in Summer 2022!</b></p>
+                    <p><b>I am currently working at <a href="https://www.blackberry.com/us/en" style={{color: "#000000"}} target="_blank" rel="noreferrer">BlackBerry</a><FaExternalLinkSquareAlt></FaExternalLinkSquareAlt> as a Software Automation Development Student!</b></p>
                 </Grid>
             </Grid>
 
@@ -72,9 +72,9 @@ export default function MyExperience() {
                     />
                 </Grid>
                 <Grid item xs={12} lg={3} className={classes.paraFormat} style={{ padding: 20 }}>
-                    <p><b>I am currently working as an Associate QA Automation Engineer Intern at <a href="https://www.finastra.com/" style={{color: "#000000"}} target="_blank" rel="noreferrer">Finastra</a><FaExternalLinkSquareAlt></FaExternalLinkSquareAlt>. I write automated tests
-                        through the use of the .NET Framework, SQL, Selenium, and the C# programming language. Additionally, I am assisting in manual
-                        API & Feature testing through Postman and other relevant technologies. I also maintain
+                    <p><b>I worked as an Associate QA Automation Engineer Intern at <a href="https://www.finastra.com/" style={{color: "#000000"}} target="_blank" rel="noreferrer">Finastra</a><FaExternalLinkSquareAlt></FaExternalLinkSquareAlt>. I wrote automated tests
+                        through the use of the .NET Framework, SQL, Selenium, and the C# programming language. Additionally, I assisted in manual
+                        API & Feature testing through Postman and other relevant technologies. I also maintained
                          the Grafana web application for my team by running a powershell script to gather data on the status of
                         automated tests.</b></p>
                 </Grid>

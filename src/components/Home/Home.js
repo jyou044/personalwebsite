@@ -51,9 +51,9 @@ export default function Home() {
 
             <Grid container className={classes.flexVal}>
                 <Grid item xs={12} md={4} className={classes.paraFormat} style={{ padding: 20 }}>
-                    <p> <b>Hi there! Welcome to my portfolio website. I'm an aspiring software engineer with a variety of interests ranging from software development and testing to project management.
+                    <p> <b>Hi there! Welcome to my portfolio website. I'm an aspiring software engineer with a variety of interests.
                         Over the course of my professional career, I've worked on a variety of different projects ranging from websites to business intelligence reports. I've interned
-                        at reputable organizations such as the Department of National Defence and Finastra. I'm incredibly passionate about programming.
+                        at reputable organizations such as BlackBerry and Finastra. I'm incredibly passionate about programming.
                         Please feel free to explore my website to find out more about me! </b>
                     </p>
                 </Grid>

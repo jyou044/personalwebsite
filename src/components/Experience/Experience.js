@@ -69,8 +69,8 @@ export default function Experience() {
                         because of my family's involvement in the field.
                         I still remember the first time I wrote a computer program when I was 11 years old.
                         <br /> <br />
-                        Since the end of my first year in university, I have had the privilege of completing several tech internships with various departments within the Government of Canada. From
-                        web development to client support, it's safe to say that I've garnered a holistic view of the world of tech in my 2 years of professional experience.
+                        Since the end of my first year in university, I have had the privilege of completing several tech internships with various organizations in both the public and private sectors. From
+                        web development to QA automation, it's safe to say that I've garnered a holistic view of the world of tech in my 2 years of professional experience.
                         <br /> <br />
                         I am always striving to challenge myself and am open to internship opportunities in both the private and public sectors. If the opportunity arises,
                         I am readily available!
