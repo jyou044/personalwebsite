@@ -67,7 +67,7 @@ export default function MyExperience() {
                     <img
                         alt="finastra"
                         height="100"
-                        src={`${process.env.PUBLIC_URL}/finastra.png`}
+                        src={`${process.env.PUBLIC_URL}/source/finastra.png`}
                         title="finastra"
                     />
                 </Grid>
@@ -122,7 +122,7 @@ export default function MyExperience() {
                     <img
                         alt="nationaldefence"
                         height="200"
-                        src={`${process.env.PUBLIC_URL}/nationaldefence.png`}
+                        src={`${process.env.PUBLIC_URL}/source/nationaldefence.png`}
                         title="national defence"
                     />
                 </Grid>

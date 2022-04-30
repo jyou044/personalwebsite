@@ -10,7 +10,7 @@ export default function Image() {
                 alt="newyorkportrait"
                 height="300"
                 width="233"
-                src={`${process.env.PUBLIC_URL}/me.jpg`}
+                src={`${process.env.PUBLIC_URL}/source/me.jpg`}
                 title="New York Portrait"
             />
         </div>
