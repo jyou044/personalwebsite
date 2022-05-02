@@ -51,7 +51,7 @@ export default function MyExperience() {
                     <img
                         alt="blackberry logo"
                         height="100"
-                        src={`${process.env.PUBLIC_URL}/source/blackberry.png`}
+                        src={`${process.env.PUBLIC_URL}/source/blackberry.jpg`}
                         title="blackberry logo"
                     />
                 </Grid>
