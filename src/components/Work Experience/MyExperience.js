@@ -56,7 +56,8 @@ export default function MyExperience() {
                     />
                 </Grid>
                 <Grid item xs={12} lg={3} className={classes.paraFormat} style={{ padding: 20 }}>
-                    <p><b>I am currently working at <a href="https://www.blackberry.com/us/en" style={{color: "#000000"}} target="_blank" rel="noreferrer">BlackBerry</a><FaExternalLinkSquareAlt></FaExternalLinkSquareAlt> as a Software Automation Development Student!</b></p>
+                    <p><b>I am currently working at <a href="https://www.blackberry.com/us/en" style={{color: "#000000"}} target="_blank" rel="noreferrer">BlackBerry</a><FaExternalLinkSquareAlt></FaExternalLinkSquareAlt> as a Software Automation Development Student
+                    on the <a href="https://www.blackberry.com/us/en/products/blackberry-enterprise-identity" style={{color: "#000000"}} target="_blank" rel="noreferrer">BlackBerry Enterprise Identity</a><FaExternalLinkSquareAlt></FaExternalLinkSquareAlt> team!</b></p>
                 </Grid>
             </Grid>
 
