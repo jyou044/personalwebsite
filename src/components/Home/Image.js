@@ -13,7 +13,7 @@ export default function Image() {
                             alt="Jason You"
                             roundedColor="#000000"
                             imageWidth="278"
-                            imageHeight="310"
+                            imageHeight="290"
                             roundedSize="5"
                             borderRadius="200"
                             title="New York Portrait"
