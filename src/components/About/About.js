@@ -8,6 +8,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { Photos1 } from './Photos1';
 import './About.css';
 import SocialFollow from '../About/SocialFollow';
+import Image from './Image';
 import Slider from './Slider';
 
 const useStyles = makeStyles((theme) => ({
@@ -28,7 +29,11 @@ const useStyles = makeStyles((theme) => ({
         textAlign: 'center',
     },
     meFormat: {
-        textAlign: 'center',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginLeft: '1.5rem',
+        marginRight: '1.5rem',
     },
     slides: {
         Photos1,
@@ -49,12 +54,7 @@ export default function About({ slides }) {
                 <Grid item xs={12} md={3} className={classes.paraFormat} style={{ marginBottom: 20 }}>
                     <Typography variant="h5" align="center" gutterBottom><b>My Profiles</b></Typography>
                     <SocialFollow />
-                    <img className={classes.meFormat}
-                        alt="Jason You"
-                        height="300"
-                        src={`${process.env.PUBLIC_URL}/source/jasonyouprofile.jpg`}
-                        title="It's me!"
-                    />
+                    <Image />
                 </Grid>
                 <Grid item xs={12} md={3} className={classes.paraFormat} style={{ marginLeft: 10, marginRight: 10 }}>
                     <Typography variant="h2" align="center" gutterBottom><b>I'm Jason</b></Typography>
