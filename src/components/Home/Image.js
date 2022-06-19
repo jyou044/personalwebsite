@@ -12,7 +12,7 @@ export default function Image() {
                             image={`${process.env.PUBLIC_URL}/source/jasonyouprofile.jpg`}
                             alt="Jason You"
                             roundedColor="#000000"
-                            imageWidth="268"
+                            imageWidth="278"
                             imageHeight="310"
                             roundedSize="5"
                             borderRadius="200"
